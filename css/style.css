@@ -71,3 +71,18 @@ transform: rotate(-45deg);
 }
 
 */
+
+.burger {
+  width: 20px;
+  height: 20px;
+}
+
+.burger__span{
+  /* border: 3px solid blue; */
+  display: block;/* строчный элемент в блочный */
+  transition: all 0.3s;/* плавность анимации */
+  width: 15px;/* ширина полоски */
+  margin: 4px;/* расстояние между полосками */
+  height: 2px;/* высота полоски */
+  background-color: var(--main-color);/* Цвет полоски */
+}
