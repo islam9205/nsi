@@ -47,19 +47,14 @@ transform: rotate(-45deg);
 
 :root {
   /* text colors */
+  --background-text: #969595; /* Второстепенный текст */
+  --main-color: #201D1D;
+  --text-part-blocks: #FFF;
+  --review-titles: #000;
+  --telephone-and-mail: #FF3214;
 
   /* background color */
-
-
-  /* background color on action */
-
-
-  /* shadow colors */
-
-
-  /* border colors */
-
-
-  /* gradient colors */
-
+  --site-search: #F3F3F3;
+  --light-blocks: #FBFBFB;
+  --dark-blocks: #232630;
 }
