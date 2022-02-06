@@ -36,8 +36,26 @@
 
   /* background color */
   --site-search: #F3F3F3;
+  --light-blocks-320: #E5E5E5;
   --light-blocks: #FBFBFB;
   --dark-blocks: #232630;
+}
+
+/* Global */
+
+/* .page-body {
+
+} */
+
+.visually-hiden { /* Доступно прячет элемент в браузере для скринридеров. */
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /*
@@ -72,17 +90,37 @@ transform: rotate(-45deg);
 
 */
 
-.burger {
-  width: 20px;
-  height: 20px;
+@media screen and (min-width: 320px) {
+
+  .main-header {
+    height: 40px;
+    display: flex;
+
+  }
+
+  .burger {
+    width: 20px;
+    height: 20px;
+  }
+
+  .burger__span{
+    display: block;/* строчный элемент в блочный */
+    transition: all 0.3s;/* плавность анимации */
+    width: 15px;/* ширина полоски */
+    margin: 4px;/* расстояние между полосками */
+    height: 2px;/* высота полоски */
+    background-color: var(--main-color);/* Цвет полоски */
+  }
+
+  .logo-container {
+    width: 100px;
+    height: 24px;
+  }
+
+  .logo {
+    width: 100%;
+    height: auto;
+  }
 }
 
-.burger__span{
-  /* border: 3px solid blue; */
-  display: block;/* строчный элемент в блочный */
-  transition: all 0.3s;/* плавность анимации */
-  width: 15px;/* ширина полоски */
-  margin: 4px;/* расстояние между полосками */
-  height: 2px;/* высота полоски */
-  background-color: var(--main-color);/* Цвет полоски */
-}
+
