@@ -1,13 +1,44 @@
 /* Fonts */
 
 @font-face {
-  font-family: "";
-  src: url("") format(""),
-    url("") format("");
+  font-family: 'Roboto';
+  src: url('Roboto-Regular.woff2') format('woff2'),
+      url('Roboto-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Roboto Condensed';
+  src: url('RobotoCondensed-Bold.woff2') format('woff2'),
+      url('RobotoCondensed-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Medium.woff2') format('woff2'),
+      url('Roboto-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Variables */
+
+:root {
+  /* text colors */
+  --background-text: #969595; /* Второстепенный текст */
+  --main-color: #201D1D;
+  --text-part-blocks: #FFF;
+  --review-titles: #000;
+  --telephone-and-mail: #FF3214;
+
+  /* background color */
+  --site-search: #F3F3F3;
+  --light-blocks: #FBFBFB;
+  --dark-blocks: #232630;
+}
 
 /*
 
@@ -39,22 +70,4 @@ transform: rotate(45deg);
 transform: rotate(-45deg);
 }
 
-
 */
-
-
-/* Variables */
-
-:root {
-  /* text colors */
-  --background-text: #969595; /* Второстепенный текст */
-  --main-color: #201D1D;
-  --text-part-blocks: #FFF;
-  --review-titles: #000;
-  --telephone-and-mail: #FF3214;
-
-  /* background color */
-  --site-search: #F3F3F3;
-  --light-blocks: #FBFBFB;
-  --dark-blocks: #232630;
-}
