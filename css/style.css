@@ -53,7 +53,7 @@
   background-color: var(--text-part-blocks);
 }
 
-.visually-hiden { /* Доступно прячет элемент в браузере для скринридеров. */
+/* .visually-hiden { /* Доступно прячет элемент в браузере для скринридеров.
   position: absolute;
   width: 1px;
   height: 1px;
@@ -62,7 +62,7 @@
   padding: 0;
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
 .title,
 .subtitle {
@@ -118,11 +118,18 @@ transform: rotate(-45deg);
 
 @media screen and (min-width: 320px) {
 
+  /* header */
+
   .main-header {
     height: 40px;
     padding: 0 16px;
     display: flex;
     align-items: center;
+  }
+
+  .menu-desktop,
+  .search {
+    display: none;
   }
 
   .burger {
@@ -149,6 +156,11 @@ transform: rotate(-45deg);
   .logo {
     width: 100%;
     height: auto;
+  }
+
+  .search-img {
+    width: 20px;
+    height: 20px;
   }
 }
 
