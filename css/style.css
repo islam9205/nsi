@@ -258,15 +258,11 @@ transform: rotate(-45deg);
 
   .problem-list {
     list-style: none;
+    padding-left: 32px;
   }
 
   .close {
     position: relative;
-    /* left: -45px; */
-    /* right: 32px; */
-    /* top: 32px; */
-   /*  width: 14px;
-    height: 14px; */
     }
     .close:hover {
     opacity: 1;
@@ -274,7 +270,7 @@ transform: rotate(-45deg);
     .close:before, .close:after {
     position: absolute;
     top: 2px;
-    right: 33px;
+    right: 25px;
     content: ' ';
     height: 14px;
     width: 1.5px;
