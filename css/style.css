@@ -184,6 +184,41 @@ transform: rotate(-45deg);
     height: 20px;
     margin: 0 12px;
   }
+
+  /* get-a-presentation */
+
+  .get-a-presentation {
+    height: 568px;
+    color: var(--text-part-blocks);
+    background: var(--background-img) url(../i/bg/bg-nsi-320.jpg) no-repeat;
+  }
+
+  .get-a-presentation__list {
+    list-style: none;
+    list-style-image: url(../i/vector.svg);
+    padding-top: 12px;
+    padding-left: 0;
+    margin-top: 0;
+    margin-left: 16px;
+    display: flex;
+  }
+
+  .get-a-presentation__item:first-child {
+    list-style-image: none;
+  }
+
+  .get-a-presentation__item:last-child {
+    opacity: 0.6;
+  }
+
+  .get-a-presentation__item:not(:first-child) {
+    margin-left: 20px;
+  }
+
+  .get-a-presentation__item a {
+    color: var(--text-part-blocks);
+    text-decoration: none;
+  }
 }
 
 
