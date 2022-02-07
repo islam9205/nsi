@@ -16,6 +16,14 @@
   font-style: normal;
 }
 
+/* @font-face {
+  font-family: 'Roboto Condensed';
+  src: url('RobotoCondensed-Bold.woff2') format('woff2'),
+      url('RobotoCondensed-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+} */
+
 @font-face {
   font-family: 'Roboto Condensed';
   src: url('RobotoCondensed-Bold.woff2') format('woff2'),
@@ -64,9 +72,18 @@
   overflow: hidden;
 } */
 
+.link,
 .title,
 .subtitle {
   font-family: "Roboto Condensed", Arial, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--main-color);
+}
+
+.link {
+  font-size: 11px;
 }
 
 .title {
@@ -158,9 +175,21 @@ transform: rotate(-45deg);
     height: auto;
   }
 
+  .main-header__form {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+  }
+
   .search-img {
     width: 20px;
     height: 20px;
+  }
+
+  .main-header__apps {
+    width: 20px;
+    height: 20px;
+    margin: 0 12px;
   }
 }
 
