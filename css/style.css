@@ -16,14 +16,6 @@
   font-style: normal;
 }
 
-/* @font-face {
-  font-family: 'Roboto Condensed';
-  src: url('RobotoCondensed-Bold.woff2') format('woff2'),
-      url('RobotoCondensed-Bold.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-} */
-
 @font-face {
   font-family: 'Roboto Condensed';
   src: url('RobotoCondensed-Bold.woff2') format('woff2'),
@@ -47,6 +39,7 @@
   --light-blocks-320: #E5E5E5;
   --light-blocks: #FBFBFB;
   --dark-blocks: #232630;
+  --background-img: rgba(0, 0, 0, 0.4);
 }
 
 /* Global */
@@ -76,7 +69,6 @@
 .title,
 .subtitle {
   font-family: "Roboto Condensed", Arial, sans-serif;
-  font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
   color: var(--main-color);
@@ -84,6 +76,7 @@
 
 .link {
   font-size: 11px;
+  font-weight: bold;
 }
 
 .title {

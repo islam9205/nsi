@@ -9,18 +9,29 @@
   </head>
   <body class="page-body">
 
-    <header>
-      <div class="burger">
-        <span class="burger__span"></span>
-        <span class="burger__span"></span>
-        <span class="burger__span"></span>
+    <header class="main-header">
+      <div class="menu">
+        <div class="burger">
+          <span class="burger__span"></span>
+          <span class="burger__span"></span>
+          <span class="burger__span"></span>
+        </div>
+        <ul class="menu-desktop">
+          <li>О компании</li>
+          <li>Справка</li>
+          <li>Тарифы</li>
+          <li>Контакты</li>
+        </ul>
       </div>
-      <img src="./i/logo.png" width="169.41" height="40" alt="Логотип">
-      <form>
-        <input type="search" placeholder="Искать конкурсы, товары, компании">
+      <figure class="logo-container">
+        <img class="logo" src="./i/logo.png" width="169.41" height="40" alt="Логотип">
+      </figure>
+      <form class="main-header__form">
+        <input class="search" type="search" placeholder="Искать конкурсы, товары, компании">
+        <a href="blank.html"><img class="search-img" src="./i/mdi_search.svg" width="24" height="24" alt="Поиск по сайту"></a>
       </form>
-      <div></div>
-      <a href="#">Войти</a>
+      <a href="blank.html"><img class="main-header__apps" src="./i/apps.svg" width="24" height="24" alt="Программы"></a>
+      <a class="link" href="blank.html">Войти</a>
     </header>
 
     <main>
