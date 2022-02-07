@@ -129,6 +129,13 @@ transform: rotate(-45deg);
 
 @media screen and (min-width: 320px) {
 
+  /* Global */
+
+  .title {
+    margin-top: 44px;
+    margin-bottom: 24px;
+  }
+
   /* header */
 
   .main-header {
@@ -186,10 +193,17 @@ transform: rotate(-45deg);
     margin: 0 12px;
   }
 
+  /* page-main */
+
+  .page-main > section {
+    margin-left: 16px;
+  }
+
   /* get-a-presentation */
 
-  .get-a-presentation {
+  .page-main .get-a-presentation {
     height: 568px;
+    margin-left: 0;
     color: var(--text-part-blocks);
     background: var(--background-img) url(../i/bg/bg-nsi-320.jpg) no-repeat;
   }
@@ -228,17 +242,50 @@ transform: rotate(-45deg);
     font-size: 32px;
     line-height: 36px;
     margin: 0 16px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     letter-spacing: -0.02em;
   }
 
   .get-a-presentation__link {
     font-size: 11px;
     line-height: 20px;
-    padding: 12px 78.5px;
+    padding: 15px 70px;
     margin-left: 16px;
     background-color: var(--telephone-and-mail);
   }
+
+  /* problem-list */
+
+  .problem-list {
+    list-style: none;
+  }
+
+  .close {
+    position: relative;
+    /* left: -45px; */
+    /* right: 32px; */
+    /* top: 32px; */
+   /*  width: 14px;
+    height: 14px; */
+    }
+    .close:hover {
+    opacity: 1;
+    }
+    .close:before, .close:after {
+    position: absolute;
+    top: 2px;
+    right: 33px;
+    content: ' ';
+    height: 14px;
+    width: 1.5px;
+    background-color: var(--telephone-and-mail);
+    }
+    .close:before {
+    transform: rotate(45deg);
+    }
+    .close:after {
+    transform: rotate(-45deg);
+    }
 }
 
 
