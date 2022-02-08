@@ -132,8 +132,13 @@ transform: rotate(-45deg);
   /* Global */
 
   .title {
-    margin-top: 44px;
+    padding-top: 44px;
+    margin-top: 0;
     margin-bottom: 24px;
+  }
+
+  .certain-blocks .title {
+    color: var(--text-part-blocks);
   }
 
   /* header */
@@ -195,8 +200,9 @@ transform: rotate(-45deg);
 
   /* page-main */
 
-  .page-main > section {
+  .page-main > section > * {
     margin-left: 16px;
+    margin-right: 16px;
   }
 
   /* get-a-presentation */
@@ -259,6 +265,11 @@ transform: rotate(-45deg);
   .problem-list {
     list-style: none;
     padding-left: 32px;
+    margin-bottom: 44px;
+  }
+
+  .problem-item {
+    margin-bottom: 16px;
   }
 
   .close {
