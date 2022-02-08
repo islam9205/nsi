@@ -141,6 +141,10 @@ transform: rotate(-45deg);
     color: var(--text-part-blocks);
   }
 
+  .item {
+    margin-bottom: 16px;
+  }
+
   /* header */
 
   .main-header {
@@ -260,7 +264,7 @@ transform: rotate(-45deg);
     background-color: var(--telephone-and-mail);
   }
 
-  /* problem-list */
+  /* problem */
 
   .problem-list {
     list-style: none;
@@ -268,17 +272,15 @@ transform: rotate(-45deg);
     margin-bottom: 44px;
   }
 
-  .problem-item {
-    margin-bottom: 16px;
+  .marker {
+    position: relative;
   }
 
-  .close {
-    position: relative;
-    }
-    .close:hover {
+  .marker:hover {
     opacity: 1;
-    }
-    .close:before, .close:after {
+  }
+
+  .marker:before, .marker:after {
     position: absolute;
     top: 2px;
     right: 25px;
@@ -286,13 +288,34 @@ transform: rotate(-45deg);
     height: 14px;
     width: 1.5px;
     background-color: var(--telephone-and-mail);
-    }
-    .close:before {
+  }
+
+  .marker:before {
     transform: rotate(45deg);
-    }
-    .close:after {
+  }
+
+  .marker:after {
     transform: rotate(-45deg);
-    }
+  }
+
+  /* cataloging */
+
+  .cataloging_margin {
+    margin-bottom: 16px;
+  }
+
+  .cataloging_margin-last {
+    margin-bottom: 0;
+    padding-bottom: 44px;
+  }
+
+  /* solution */
+
+  .solution-list {
+    list-style-image: url(../i/check.svg);
+    top: 3px;
+    left: 50px;
+  }
 }
 
 
