@@ -145,6 +145,7 @@ transform: rotate(-45deg);
     list-style: none;
     padding-left: 32px;
     margin-bottom: 44px;
+    z-index: 1;
   }
 
   .item {
@@ -311,10 +312,21 @@ transform: rotate(-45deg);
 
   /* solution */
 
-  .solution-list {
-    list-style-image: url(../i/check.svg);
-    top: 3px;
-    left: 50px;
+  /* .solution-marker {
+    z-index: 2;
+    background: url(../i/check.svg) no-repeat;
+    background-position-x: -20px; 
+  } */
+
+  .solution-marker {
+    position: relative;
+  }
+
+  .solution-marker::before {
+    content: url(../i/check.svg);
+    position: absolute;
+    top: -4px;
+    left: -35px;
   }
 }
 
