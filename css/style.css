@@ -141,6 +141,12 @@ transform: rotate(-45deg);
     color: var(--text-part-blocks);
   }
 
+  .list {
+    list-style: none;
+    padding-left: 32px;
+    margin-bottom: 44px;
+  }
+
   .item {
     margin-bottom: 16px;
   }
@@ -265,12 +271,6 @@ transform: rotate(-45deg);
   }
 
   /* problem */
-
-  .problem-list {
-    list-style: none;
-    padding-left: 32px;
-    margin-bottom: 44px;
-  }
 
   .marker {
     position: relative;
