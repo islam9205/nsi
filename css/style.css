@@ -370,6 +370,14 @@ transform: rotate(-45deg);
   .background-img-li-3::before {
     content: url(../i/block-our-approach/shield.svg);
   }
+
+  /* our-projects */
+
+  .our-projects-desktop {
+    display: none;
+  }
+
+  
 }
 
 
