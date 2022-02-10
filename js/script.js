@@ -1,12 +1,12 @@
 $(document).ready(function(){
-	$('.slider').slick({
+	$('.our-projects-slider').slick({
 		arrows:true,
-		dots:true,
-		slidesToShow:3,
+		slidesToShow:2,
 		autoplay:true,
 		speed:1000,
 		autoplaySpeed:800,
-		responsive:[
+    appendArrows:$('.our-projects-content')
+		/* responsive:[
 			{
 				breakpoint: 768,
 				settings: {
@@ -19,7 +19,7 @@ $(document).ready(function(){
 					slidesToShow:1
 				}
 			}
-		]
+		] */
 	});
 });
 
