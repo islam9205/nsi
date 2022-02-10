@@ -266,8 +266,12 @@ transform: rotate(-45deg);
   .get-a-presentation__link {
     font-size: 11px;
     line-height: 20px;
-    padding: 15px 68px;
-    margin-left: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+    /* padding: 15px 68px;
+    margin-left: 16px; */
     background-color: var(--telephone-and-mail);
   }
 
@@ -377,7 +381,7 @@ transform: rotate(-45deg);
     display: none;
   }
 
-  
+
 }
 
 
