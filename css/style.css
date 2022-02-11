@@ -496,6 +496,15 @@ transform: rotate(-45deg);
     color: var(--text-part-blocks);
     text-decoration: none;
   }
+
+  /* footer */
+
+  .page-footer {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2vw;
+  }
 }
 
 
