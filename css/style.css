@@ -448,7 +448,48 @@ transform: rotate(-45deg);
     opacity: 0.2;
   }
 
+  /* contacts */
 
+  .contacts-list {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .contacts-list li {
+    display: flex;
+    margin-bottom: 24px;
+  }
+
+  .contacts-list img {
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    margin-right: 16px;
+  }
+
+  .contacts-list h3 {
+    font-family: "Roboto Condensed", Arial, sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+
+  .contacts-list p {
+    opacity: 0.6;
+    margin-top: 5px;
+    margin-bottom: 12px;
+  }
+
+  .contacts-list a {
+    display: block;
+    color: var(--text-part-blocks);
+    text-decoration: none;
+    margin-bottom: 8px;
+  }
+
+  .contacts-link1 
 }
 
 
