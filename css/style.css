@@ -460,7 +460,7 @@ transform: rotate(-45deg);
     margin-bottom: 24px;
   }
 
-  .contacts-list img {
+  .contacts-face {
     border-radius: 50%;
     width: 64px;
     height: 64px;
@@ -482,14 +482,20 @@ transform: rotate(-45deg);
     margin-bottom: 12px;
   }
 
-  .contacts-list a {
-    display: block;
-    color: var(--text-part-blocks);
-    text-decoration: none;
+  .contacts-conterner {
+    display: flex;
+    align-items: center;
     margin-bottom: 8px;
   }
 
-  .contacts-link1 
+  .contacts-conterner img {
+    margin-right: 10px;
+  }
+
+  .contacts-list a {
+    color: var(--text-part-blocks);
+    text-decoration: none;
+  }
 }
 
 
