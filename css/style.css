@@ -152,6 +152,11 @@ transform: rotate(-45deg);
     margin-bottom: 16px;
   }
 
+  .our-approach,
+  .reviews {
+    background: var(--light-blocks);
+  }
+
   /* header */
 
   .main-header {
@@ -336,6 +341,7 @@ transform: rotate(-45deg);
   .our-approach-list {
     list-style: none;
     padding-left: 0;
+    background: var(--text-part-blocks);
   }
 
   .our-approach-list li {
@@ -383,8 +389,6 @@ transform: rotate(-45deg);
 
   .our-projects-wrapper,
   .reviews-wrapper {
-    /* height: 100%;
-    padding: 50px; */
     display: flex;
     justify-content:center;
     align-items: center;
@@ -446,6 +450,27 @@ transform: rotate(-45deg);
   .our-projects-content .slick-arrow.slick-disabled,
   .reviews-content .slick-arrow.slick-disabled {
     opacity: 0.2;
+  }
+
+  /* reviews */
+
+  .reviews-slider__item {
+    flex-direction: column;
+  }
+
+  .reviews-slider__figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    margin: 0;
+    border: 1px solid var(--site-search);
+  }
+
+  .reviews-slider__img-1 {
+    width: 62.9px;
+    height: 11.59px;
   }
 
   /* contacts */
