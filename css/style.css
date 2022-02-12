@@ -39,6 +39,7 @@
   --light-blocks-320: #E5E5E5;
   --light-blocks: #FBFBFB;
   --dark-blocks: #232630;
+  --dot-color: #CCC;
   --background-img: rgba(0, 0, 0, 0.4);
 }
 
@@ -404,13 +405,16 @@ transform: rotate(-45deg);
   .our-projects-slider__item,
   .reviews-slider__item {
     display: flex;
+
+  }
+
+  .our-projects-slider__item {
     justify-content:center;
     align-items: center;
   }
 
   .slick-track{
     display: flex;
-    /* align-items: flex-start; */
   }
 
   .certain-blocks,
@@ -456,6 +460,31 @@ transform: rotate(-45deg);
 
   .reviews-slider__item {
     flex-direction: column;
+  }
+
+  .reviews-slider .slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .reviews-slider .slick-dots li {
+    margin: 0 8px;
+  }
+
+  .reviews-slider .slick-dots button {
+    font-size: 0;
+    width: 12px;
+    height: 12px;
+    background: var(--dot-color);
+    border: none;
+    border-radius: 50%;
+  }
+
+  .reviews-slider .slick-dots li.slick-active button {
+    background: var(--telephone-and-mail);
   }
 
   .reviews-slider__figure {
