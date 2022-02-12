@@ -454,10 +454,6 @@ transform: rotate(-45deg);
 
   /* reviews */
 
-  /* .reviews-slider {
-    width: 310px;
-  } */
-
   .reviews-slider__item {
     flex-direction: column;
   }
@@ -535,9 +531,18 @@ transform: rotate(-45deg);
     grid-gap: 2vw;
   }
 
+  .page-footer__logo,
+  .page-footer__list,
+  .page-footer__text {
+    margin-left: 16px;
+  }
+
   .page-footer__logo {
     margin-top: 44px;
-    margin-left: 16px;
+  }
+
+  .page-footer__box-link {
+    padding-top: 44px;
   }
 
   .page-footer__link-contacts {
@@ -552,8 +557,27 @@ transform: rotate(-45deg);
     margin-bottom: 8px;
   }
 
-  .page-footer__box-link {
-    padding-top: 44px;
+  .page-footer ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .page-footer__item {
+    width: 104px;
+  }
+
+  .page-footer__link {
+    color: var(--background-text);
+  }
+
+  .page-footer__list_span {
+    grid-column: span 2;
+  }
+
+  .page-footer__text {
+    grid-column: span 2;
+    color: var(--background-text);
+    margin-bottom: 0;
   }
 }
 
