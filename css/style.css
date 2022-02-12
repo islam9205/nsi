@@ -454,6 +454,10 @@ transform: rotate(-45deg);
 
   /* reviews */
 
+  /* .reviews-slider {
+    width: 310px;
+  } */
+
   .reviews-slider__item {
     flex-direction: column;
   }
