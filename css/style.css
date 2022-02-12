@@ -513,6 +513,10 @@ transform: rotate(-45deg);
     font-size: 14px;
   }
 
+  .reviews-slider h3 + p {
+    color: var(--background-text);
+  }
+
   /* contacts */
 
   .contacts-list {
