@@ -502,6 +502,17 @@ transform: rotate(-45deg);
     height: 11.59px;
   }
 
+  .reviews-slider__img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .reviews-slider h3 {
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+  }
+
   /* contacts */
 
   .contacts-list {
