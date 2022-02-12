@@ -505,6 +505,27 @@ transform: rotate(-45deg);
     grid-template-columns: 1fr 1fr;
     grid-gap: 2vw;
   }
+
+  .page-footer__logo {
+    margin-top: 44px;
+    margin-left: 16px;
+  }
+
+  .page-footer__link-contacts {
+    font-family: "Roboto Condensed", Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--telephone-and-mail);
+    margin-bottom: 8px;
+  }
+
+  .page-footer__box-link {
+    padding-top: 44px;
+  }
 }
 
 
