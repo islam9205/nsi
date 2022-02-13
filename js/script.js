@@ -5,7 +5,7 @@ $(document).ready(function(){
 		autoplay:true,
 		speed:1000,
 		autoplaySpeed:800,
-    appendArrows:$('.our-projects-content')
+    appendArrows:$('.our-projects__content')
 		/* responsive:[
 			{
 				breakpoint: 768,
@@ -30,7 +30,7 @@ $(document).ready(function(){
 		autoplay:true,
 		speed:1000,
 		autoplaySpeed:800,
-    appendArrows:$('.reviews-content')
+    appendArrows:$('.reviews__content')
 		/* responsive:[
 			{
 				breakpoint: 768,
