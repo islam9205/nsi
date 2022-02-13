@@ -194,7 +194,8 @@
     margin-right: 16px;
   }
 
-  .page-main > section > .contacts-list {
+  .page-main > section > .contacts-list,
+  .page-main > section > .contacts-box-text {
     margin-left: 0;
     margin-right: 0;
     padding-left: 16px;
@@ -557,14 +558,20 @@
     position: absolute;
     top: 583px;
     left: 50%;
-    
+    transform:translateX(-50%);
     background-color: var(--dark-blocks);
-    padding-left: 16px;
-    padding-right: 16px;
+    /* padding-left: 16px;
+    padding-right: 16px; */
+    margin-left: 0;
+    margin-bottom: 12px;
   }
 
   .contacts-text {
     opacity: 0.6;
+  }
+
+  .contacts-link {
+   margin-top: 25px;
   }
 
   /* footer */
@@ -628,6 +635,8 @@
 
 @media screen and (min-width: 768px) {
 
+  /* header */
+
   .main-header {
     height: 80px;
     padding: 0 24px;
@@ -648,4 +657,89 @@
     margin-left: 24px;
   }
 
+  .search-img,
+  .main-header__apps {
+    width: 24px;
+    height: 24px;
+  }
+
+  .main-header__link {
+    font-size: 13px;
+  }
+
+  /* get-a-presentation */
+
+  .page-main .get-a-presentation {
+    background: var(--background-img) url(../i/bg/bg-nsi-768.jpg) no-repeat;
+  }
+
+  .get-a-presentation__list {
+    padding-top: 20px;
+    margin-left: 24px;
+    margin-bottom: 106px;
+  }
+
+
+
+
+
+
+
+
+  /* .page-main .get-a-presentation {
+    height: 568px;
+    margin-left: 0;
+    color: var(--text-part-blocks);
+    background: var(--background-img) url(../i/bg/bg-nsi-320.jpg) no-repeat;
+  }
+
+  .get-a-presentation__list {
+    list-style: none;
+    list-style-image: url(../i/vector.svg);
+    padding-top: 12px;
+    padding-left: 0;
+    margin-top: 0;
+    margin-left: 16px;
+    margin-bottom: 56px;
+    display: flex;
+  }
+
+  .get-a-presentation__item a,
+  .get-a-presentation__link {
+    color: var(--text-part-blocks);
+    text-decoration: none;
+  }
+
+  .get-a-presentation__item:first-child {
+    list-style-image: none;
+  }
+
+  .get-a-presentation__item:last-child {
+    opacity: 0.6;
+  }
+
+  .get-a-presentation__item:not(:first-child) {
+    margin-left: 20px;
+  }
+
+  .main-title {
+    color: var(--text-part-blocks);
+    font-size: 32px;
+    line-height: 36px;
+    margin: 0 16px;
+    margin-bottom: 30px;
+    letter-spacing: -0.02em;
+  }
+
+  .get-a-presentation__link {
+    font-size: 11px;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+    /* padding: 15px 68px;
+    margin-left: 16px;
+    background-color: var(--telephone-and-mail);
+  } */
 }
