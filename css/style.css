@@ -59,17 +59,6 @@
   background-color: var(--text-part-blocks);
 }
 
-/* .visually-hiden { /* Доступно прячет элемент в браузере для скринридеров.
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-} */
-
 .link,
 .main-title,
 .title,
@@ -213,13 +202,25 @@
 
   .get-a-presentation__list {
     list-style: none;
-    list-style-image: url(../i/vector.svg);
     padding-top: 12px;
     padding-left: 0;
     margin-top: 0;
     margin-left: 16px;
     margin-bottom: 56px;
     display: flex;
+  }
+
+  .get-a-presentation__list li {
+    position: relative;
+  }
+
+  .get-a-presentation__list li:not(:first-child)::before {
+    position: absolute;
+    top: -1px;
+    left: -11px;
+    content: url(../i/vector.svg);
+    width: 3,71px;
+    height: 6px;
   }
 
   .get-a-presentation__item a,
@@ -246,7 +247,6 @@
     line-height: 36px;
     margin: 0 16px;
     margin-bottom: 30px;
-    letter-spacing: -0.02em;
   }
 
   .get-a-presentation__link {
@@ -256,8 +256,6 @@
     justify-content: center;
     align-items: center;
     height: 44px;
-    /* padding: 15px 68px;
-    margin-left: 16px; */
     background-color: var(--telephone-and-mail);
   }
 
@@ -635,6 +633,36 @@
 
 @media screen and (min-width: 768px) {
 
+  /* Global */
+
+  .title {
+    padding-top: 60px;
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .subtitle {
+    margin-top: 64px;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .box-flex {
+    display: flex;
+  }
+
+  .page-main > section > .box-flex_left {
+    margin-left: 193px;
+  }
+
+  .page-main > section > .box-flex_left1 {
+    margin-left: 112px;
+  }
+
+  .cataloging_margin-first {
+    margin-top: 60px;
+  }
+
   /* header */
 
   .main-header {
@@ -667,6 +695,13 @@
     font-size: 13px;
   }
 
+  /* page-main */
+
+  .page-main > section > * {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
   /* get-a-presentation */
 
   .page-main .get-a-presentation {
@@ -679,67 +714,87 @@
     margin-bottom: 106px;
   }
 
-
-
-
-
-
-
-
-  /* .page-main .get-a-presentation {
-    height: 568px;
-    margin-left: 0;
-    color: var(--text-part-blocks);
-    background: var(--background-img) url(../i/bg/bg-nsi-320.jpg) no-repeat;
-  }
-
-  .get-a-presentation__list {
-    list-style: none;
-    list-style-image: url(../i/vector.svg);
-    padding-top: 12px;
-    padding-left: 0;
-    margin-top: 0;
-    margin-left: 16px;
-    margin-bottom: 56px;
-    display: flex;
-  }
-
-  .get-a-presentation__item a,
-  .get-a-presentation__link {
-    color: var(--text-part-blocks);
-    text-decoration: none;
-  }
-
-  .get-a-presentation__item:first-child {
-    list-style-image: none;
-  }
-
-  .get-a-presentation__item:last-child {
-    opacity: 0.6;
-  }
-
-  .get-a-presentation__item:not(:first-child) {
-    margin-left: 20px;
+  .get-a-presentation__list li:not(:first-child)::before {
+    width: 4.94px;
+    height: 8px;
   }
 
   .main-title {
-    color: var(--text-part-blocks);
-    font-size: 32px;
-    line-height: 36px;
+    font-size: 54px;
+    line-height: 64px;
     margin: 0 16px;
-    margin-bottom: 30px;
-    letter-spacing: -0.02em;
+    margin-bottom: 52px;
   }
 
   .get-a-presentation__link {
-    font-size: 11px;
-    line-height: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 44px;
-    /* padding: 15px 68px;
-    margin-left: 16px;
+    width: 202px;
+    height: 52px;
+    font-size: 13px;
+  }
+
+  /* problem */
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* .marker {
+    position: relative;
+  }
+
+  .marker:hover {
+    opacity: 1;
+  }
+
+  .marker:before, .marker:after {
+    position: absolute;
+    top: 2px;
+    right: 25px;
+    content: ' ';
+    height: 14px;
+    width: 1.5px;
     background-color: var(--telephone-and-mail);
+  }
+
+  .marker:before {
+    transform: rotate(45deg);
+  }
+
+  .marker:after {
+    transform: rotate(-45deg);
   } */
+
+  /* cataloging */
+
+  /* .cataloging_margin {
+    margin-bottom: 16px;
+  }
+
+  .cataloging_margin-last {
+    margin-bottom: 0;
+    padding-bottom: 44px;
+  } */
+
+  /* solution */
+
+  /* .solution-marker {
+    position: relative;
+  }
+
+  .solution-marker::before {
+    content: url(../i/check.svg);
+    position: absolute;
+    top: -4px;
+    left: -35px;
+  } */
+
+
 }
