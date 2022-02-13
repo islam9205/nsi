@@ -41,6 +41,10 @@
   --dark-blocks: #232630;
   --dot-color: #CCC;
   --background-img: rgba(0, 0, 0, 0.4);
+
+  /* border color */
+
+  --color-frame: #444857;
 }
 
 /* Global */
@@ -95,38 +99,6 @@
   color: var(--text-part-blocks);
   background-color: var(--dark-blocks);
 }
-
-/*
-
-<span class="close"></span>
-
-.close {
-position: absolute;
-right: 32px;
-top: 32px;
-width: 32px;
-height: 32px;
-opacity: 0.3;
-}
-.close:hover {
-opacity: 1;
-}
-.close:before, .close:after {
-position: absolute;
-left: 15px;
-content: ' ';
-height: 33px;
-width: 2px;
-background-color: #333;
-}
-.close:before {
-transform: rotate(45deg);
-}
-.close:after {
-transform: rotate(-45deg);
-}
-
-*/
 
 @media screen and (min-width: 320px) {
 
@@ -220,6 +192,13 @@ transform: rotate(-45deg);
   .page-main > section > * {
     margin-left: 16px;
     margin-right: 16px;
+  }
+
+  .page-main > section > .contacts-list {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
   /* get-a-presentation */
@@ -520,12 +499,16 @@ transform: rotate(-45deg);
   /* contacts */
 
   .contacts {
+    position: relative;
     padding-bottom: 44px;
   }
 
   .contacts-list {
     list-style: none;
     padding-left: 0;
+    padding-top: 24px;
+    border-top: 1px solid var(--color-frame);
+    border-bottom: 1px solid var(--color-frame);
   }
 
   .contacts-list li {
@@ -570,8 +553,17 @@ transform: rotate(-45deg);
     text-decoration: none;
   }
 
+  .contacts-box-text {
+    position: absolute;
+    top: 583px;
+    left: 50%;
+    
+    background-color: var(--dark-blocks);
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
   .contacts-text {
-    text-align: center;
     opacity: 0.6;
   }
 
@@ -634,4 +626,26 @@ transform: rotate(-45deg);
   }
 }
 
+@media screen and (min-width: 768px) {
 
+  .main-header {
+    height: 80px;
+    padding: 0 24px;
+  }
+
+  .burger {
+    width: 24px;
+    height: 24px;
+  }
+
+  .burger__span{
+    width: 18px;
+  }
+
+  .logo-container {
+    width: 168px;
+    height: 40px;
+    margin-left: 24px;
+  }
+
+}
