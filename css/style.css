@@ -519,6 +519,10 @@ transform: rotate(-45deg);
 
   /* contacts */
 
+  .contacts {
+    padding-bottom: 44px;
+  }
+
   .contacts-list {
     list-style: none;
     padding-left: 0;
@@ -564,6 +568,11 @@ transform: rotate(-45deg);
   .contacts-list a {
     color: var(--text-part-blocks);
     text-decoration: none;
+  }
+
+  .contacts-text {
+    text-align: center;
+    opacity: 0.6;
   }
 
   /* footer */
