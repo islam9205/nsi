@@ -387,17 +387,6 @@
     display: flex;
   }
 
-  /* our-projects */
-
-  .our-projects__desktop {
-    display: none;
-  }
-
-  .our-projects__item {
-    justify-content:center;
-    align-items: center;
-  }
-
   .our-projects-content,
   .reviews-content {
     position: absolute;
@@ -430,6 +419,17 @@
   .our-projects-content .slick-arrow.slick-disabled,
   .reviews-content .slick-arrow.slick-disabled {
     opacity: 0.2;
+  }
+
+  /* our-projects */
+
+  .our-projects__desktop {
+    display: none;
+  }
+
+  .our-projects__item {
+    justify-content:center;
+    align-items: center;
   }
 
   /* reviews */
