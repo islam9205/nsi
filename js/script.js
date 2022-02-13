@@ -24,7 +24,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-	$('.reviews-slider').slick({
+	$('.reviews__slider').slick({
 		arrows:true,
     dots:true,
 		autoplay:true,
