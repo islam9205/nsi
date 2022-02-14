@@ -759,59 +759,32 @@
     margin-right: 48px;
   }
 
+  /* reviews */
 
-
-
-
-  /* .marker {
-    position: relative;
+  .reviews__item {
+    flex-direction: row;
   }
 
-  .marker:hover {
-    opacity: 1;
+  .reviews__figure {
+    width: 136px;
+    height: 136px;
+    margin-right: 24px;
   }
 
-  .marker:before, .marker:after {
-    position: absolute;
-    top: 2px;
-    right: 25px;
-    content: ' ';
-    height: 14px;
-    width: 1.5px;
-    background-color: var(--telephone-and-mail);
+  .reviews__img-1 {
+    width: 106.92px;
+    height: 19.7px;
   }
 
-  .marker:before {
-    transform: rotate(45deg);
+  .reviews__img {
+    width: 117.24px;
+    height: 117.24px;
   }
 
-  .marker:after {
-    transform: rotate(-45deg);
-  } */
+  /* contacts */
 
-  /* cataloging */
-
-  /* .cataloging_margin {
-    margin-bottom: 16px;
+  .contacts__list {
+    display: flex;
   }
-
-  .cataloging_margin-last {
-    margin-bottom: 0;
-    padding-bottom: 44px;
-  } */
-
-  /* solution */
-
-  /* .box-solution__marker {
-    position: relative;
-  }
-
-  .box-solution__marker::before {
-    content: url(../i/check.svg);
-    position: absolute;
-    top: -4px;
-    left: -35px;
-  } */
-
 
 }
