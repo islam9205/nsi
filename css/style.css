@@ -654,7 +654,8 @@
   }
 
   .problem,
-  .cataloging {
+  .cataloging,
+  .solution {
     display: flex;
   }
 
@@ -696,7 +697,6 @@
   .main-title,
   .link-button,
   .title,
-  .solution__box,
   .our-approach__list,
   .reviews_wrapper {
     margin-left: 24px;
@@ -725,15 +725,12 @@
     line-height: 64px;
     margin-bottom: 52px;
   }
-  
+
   /* problem */
 
   .problem__poor-quality-data {
     margin-left: 193px;
   }
-
-
-
 
   /* cataloging */
 
@@ -745,6 +742,22 @@
     margin-top: 60px;
   }
 
+  /* solution */
+
+  .solution__box{
+    margin-left: 213px;
+  }
+
+  /* our-approach */
+
+  .our-approach__list {
+    display: flex;
+  }
+
+  .our-approach__list li {
+    width: 208px;
+    margin-right: 48px;
+  }
 
 
 
