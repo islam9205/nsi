@@ -785,6 +785,20 @@
 
   .contacts__list {
     display: flex;
+    padding-left: 0;
+    padding-right: 0;
+    border: none;
   }
+
+  .contacts__list li {
+    padding-top: 22.14px;
+    padding-left: 20.58px;
+    padding-right: 36px;
+    border: 1px solid var(--color-frame);
+  }
+
+  /* .contacts__list li:first-child {
+
+  } */
 
 }
