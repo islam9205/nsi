@@ -1,16 +1,16 @@
 $(document).ready(function(){
 	$('.our-projects__slider').slick({
 		arrows:true,
-		slidesToShow:2,
+		slidesToShow:4,
 		autoplay:true,
 		speed:1000,
 		autoplaySpeed:800,
     appendArrows:$('.our-projects__content'),
 		responsive:[
 			{
-				breakpoint: 768,
+				breakpoint: 320,
 				settings: {
-					slidesToShow:4
+					slidesToShow:2
 				}
 			}
 		]
