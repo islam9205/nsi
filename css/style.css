@@ -186,6 +186,19 @@
     margin: 0 12px;
   }
 
+  /* page-main-blank */
+
+  .page-main-blank {
+    height: 568px;
+    color: var(--text-part-blocks);
+    background: var(--background-img) url(../i/bg/bg-nsi-320.jpg) no-repeat;
+  }
+
+  .main-title_margin {
+    margin-top: 0;
+    padding-top: 100px;
+  }
+
   /* page-main */
 
   .get-a-presentation__list,
@@ -688,6 +701,18 @@
 
   .main-header__link {
     font-size: 13px;
+  }
+
+  /* page-main-blank */
+
+  .page-main-blank {
+    height: 568px;
+    color: var(--text-part-blocks);
+    background: var(--background-img) url(../i/bg/bg-nsi-768.jpg) no-repeat;
+  }
+
+  .main-title_margin {
+    padding-top: 200px;
   }
 
   /* page-main */
