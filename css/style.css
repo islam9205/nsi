@@ -74,6 +74,16 @@
   font-weight: bold;
 }
 
+.link-button {
+  font-size: 11px;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  background-color: var(--telephone-and-mail);
+}
+
 .title {
   font-size: 24px;
   line-height: 32px;
@@ -178,22 +188,22 @@
 
   /* page-main */
 
-  .page-main > section > * {
+  .get-a-presentation__list,
+  .main-title,
+  .link-button,
+  .title,
+  .problem__poor-quality-data,
+  .cataloging__container,
+  .solution__box,
+  .our-approach__list,
+  .reviews_wrapper {
     margin-left: 16px;
     margin-right: 16px;
   }
 
-  .page-main > section > .contacts-list,
-  .page-main > section > .contacts-box-text {
-    margin-left: 0;
-    margin-right: 0;
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-
   /* get-a-presentation */
 
-  .page-main .get-a-presentation {
+  .get-a-presentation {
     height: 568px;
     margin-left: 0;
     color: var(--text-part-blocks);
@@ -205,7 +215,7 @@
     padding-top: 12px;
     padding-left: 0;
     margin-top: 0;
-    margin-left: 16px;
+    /* margin-left: 16px; */
     margin-bottom: 56px;
     display: flex;
   }
@@ -224,7 +234,7 @@
   }
 
   .get-a-presentation__item a,
-  .get-a-presentation__link {
+  .link-button {
     color: var(--text-part-blocks);
     text-decoration: none;
   }
@@ -245,18 +255,7 @@
     color: var(--text-part-blocks);
     font-size: 32px;
     line-height: 36px;
-    margin: 0 16px;
     margin-bottom: 30px;
-  }
-
-  .get-a-presentation__link {
-    font-size: 11px;
-    line-height: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 44px;
-    background-color: var(--telephone-and-mail);
   }
 
   /* problem */
@@ -300,11 +299,11 @@
 
   /* solution */
 
-  .solution-marker {
+  .box-solution__marker {
     position: relative;
   }
 
-  .solution-marker::before {
+  .box-solution__marker::before {
     content: url(../i/check.svg);
     position: absolute;
     top: -4px;
@@ -313,26 +312,45 @@
 
   /* our-approach */
 
-  .our-approach-title {
+  .our-approach__title {
     margin-bottom: 100px;
   }
 
-  .our-approach-list {
+  .our-approach__list {
     list-style: none;
     padding-left: 0;
     background: var(--text-part-blocks);
   }
 
-  .our-approach-list li {
+  .our-approach__list li {
     margin-bottom: 80px;
     position: relative;
   }
 
-  .our-approach-list li:last-child {
+  .our-approach__list li:last-child {
     margin-bottom: 16px;
   }
 
-  .our-approach-list h3 {
+  .our-approach__list li::before,
+  .our-approach__list li::before,
+  .our-approach__list li::before {
+    position: absolute;
+    top: -58px;
+  }
+
+  .our-approach__item-1::before {
+    content: url(../i/block-our-approach/the-fire.svg);
+  }
+
+  .our-approach__item-2::before {
+    content: url(../i/block-our-approach/user.png);
+  }
+
+  .our-approach__item-3::before {
+    content: url(../i/block-our-approach/shield.svg);
+  }
+
+  .our-approach__list h3 {
     font-family: "Roboto Condensed", Arial, sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -341,33 +359,14 @@
     text-transform: uppercase;
   }
 
-  .background-img-li-1::before,
-  .background-img-li-2::before,
-  .background-img-li-3::before {
-    position: absolute;
-    top: -58px;
+  /* global slider */
+
+  .our-projects,
+  .reviews {
+    position: relative;
   }
 
-  .background-img-li-1::before {
-    content: url(../i/block-our-approach/the-fire.svg);
-  }
-
-  .background-img-li-2::before {
-    content: url(../i/block-our-approach/user.png);
-  }
-
-  .background-img-li-3::before {
-    content: url(../i/block-our-approach/shield.svg);
-  }
-
-  /* our-projects */
-
-  .our-projects-desktop {
-    display: none;
-  }
-
-  .our-projects-wrapper,
-  .reviews-wrapper {
+  .wrapper {
     display: flex;
     justify-content:center;
     align-items: center;
@@ -375,40 +374,27 @@
     padding-bottom: 44px;
   }
 
-  .our-projects-slider,
-  .reviews-slider {
+  .slider {
     min-width: 0;
   }
 
-  .our-projects-slider__item,
-  .reviews-slider__item {
+  .slider__item {
     display: flex;
-
-  }
-
-  .our-projects-slider__item {
-    justify-content:center;
-    align-items: center;
   }
 
   .slick-track{
     display: flex;
   }
 
-  .certain-blocks,
-  .reviews {
-    position: relative;
-  }
-
-  .our-projects-content,
-  .reviews-content {
+  .our-projects__content,
+  .reviews__content {
     position: absolute;
     top: 40px;
     right: 16px;
   }
 
-  .our-projects-content .slick-arrow,
-  .reviews-content .slick-arrow {
+  .our-projects__content .slick-arrow,
+  .reviews__content .slick-arrow {
     font-size: 0;
     width: 32px;
     height: 32px;
@@ -416,31 +402,42 @@
     border-radius: 50%;
   }
 
-  .our-projects-content .slick-arrow.slick-prev,
-  .reviews-content .slick-arrow.slick-prev {
+  .our-projects__content .slick-arrow.slick-prev,
+  .reviews__content .slick-arrow.slick-prev {
     left: 0;
     background: url('../i/left.svg') 0 0 / 100% no-repeat;
     margin-right: 10px;
   }
 
-  .our-projects-content .slick-arrow.slick-next,
-  .reviews-content .slick-arrow.slick-next {
+  .our-projects__content .slick-arrow.slick-next,
+  .reviews__content .slick-arrow.slick-next {
     right: 0;
     background: url('../i/right.svg') 0 0 / 100% no-repeat;
   }
 
-  .our-projects-content .slick-arrow.slick-disabled,
-  .reviews-content .slick-arrow.slick-disabled {
+  /* .our-projects__content .slick-arrow.slick-disabled,
+  .reviews__content .slick-arrow.slick-disabled {
     opacity: 0.2;
+  } */
+
+  /* our-projects */
+
+  .our-projects__desktop {
+    display: none;
+  }
+
+  .our-projects__item {
+    justify-content:center;
+    align-items: center;
   }
 
   /* reviews */
 
-  .reviews-slider__item {
+  .reviews__item {
     flex-direction: column;
   }
 
-  .reviews-slider .slick-dots {
+  .reviews__slider .slick-dots {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -448,11 +445,11 @@
     padding-left: 0;
   }
 
-  .reviews-slider .slick-dots li {
+  .reviews__slider .slick-dots li {
     margin: 0 8px;
   }
 
-  .reviews-slider .slick-dots button {
+  .reviews__slider .slick-dots button {
     font-size: 0;
     width: 12px;
     height: 12px;
@@ -461,11 +458,11 @@
     border-radius: 50%;
   }
 
-  .reviews-slider .slick-dots li.slick-active button {
+  .reviews__slider .slick-dots li.slick-active button {
     background: var(--telephone-and-mail);
   }
 
-  .reviews-slider__figure {
+  .reviews__figure {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -475,23 +472,23 @@
     border: 1px solid var(--site-search);
   }
 
-  .reviews-slider__img-1 {
+  .reviews__img-1 {
     width: 62.9px;
     height: 11.59px;
   }
 
-  .reviews-slider__img {
+  .reviews__img {
     width: 70px;
     height: 70px;
   }
 
-  .reviews-slider h3 {
+  .reviews h3 {
     font-family: "Roboto", Arial, sans-serif;
     font-weight: 500;
     font-size: 14px;
   }
 
-  .reviews-slider h3 + p {
+  .reviews h3 + p {
     color: var(--background-text);
   }
 
@@ -502,27 +499,32 @@
     padding-bottom: 44px;
   }
 
-  .contacts-list {
+  .contacts__list,
+  .contacts__box-text {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .contacts__list {
     list-style: none;
-    padding-left: 0;
     padding-top: 24px;
     border-top: 1px solid var(--color-frame);
     border-bottom: 1px solid var(--color-frame);
   }
 
-  .contacts-list li {
+  .contacts__list li {
     display: flex;
     margin-bottom: 24px;
   }
 
-  .contacts-face {
+  .contacts__face {
     border-radius: 50%;
     width: 64px;
     height: 64px;
     margin-right: 16px;
   }
 
-  .contacts-list h3 {
+  .contacts__list h3 {
     font-family: "Roboto Condensed", Arial, sans-serif;
     font-size: 20px;
     line-height: 32px;
@@ -531,44 +533,42 @@
     margin-bottom: 5px;
   }
 
-  .contacts-list p {
+  .contacts__list p {
     opacity: 0.6;
     margin-top: 5px;
     margin-bottom: 12px;
   }
 
-  .contacts-conterner {
+  .contacts__conterner {
     display: flex;
     align-items: center;
     margin-bottom: 8px;
   }
 
-  .contacts-conterner img {
+  .contacts__conterner img {
     margin-right: 10px;
   }
 
-  .contacts-list a {
+  .contacts__list a {
     color: var(--text-part-blocks);
     text-decoration: none;
   }
 
-  .contacts-box-text {
+  .contacts__box-text {
     position: absolute;
     top: 583px;
     left: 50%;
     transform:translateX(-50%);
     background-color: var(--dark-blocks);
-    /* padding-left: 16px;
-    padding-right: 16px; */
     margin-left: 0;
     margin-bottom: 12px;
   }
 
-  .contacts-text {
+  .contacts__text {
     opacity: 0.6;
   }
 
-  .contacts-link {
+  .contacts_link {
    margin-top: 25px;
   }
 
@@ -635,6 +635,12 @@
 
   /* Global */
 
+  .link-button {
+    width: 202px;
+    height: 52px;
+    font-size: 13px;
+  }
+
   .title {
     padding-top: 60px;
     font-size: 30px;
@@ -647,20 +653,9 @@
     line-height: 32px;
   }
 
-  .box-flex {
+  .problem,
+  .cataloging {
     display: flex;
-  }
-
-  .page-main > section > .box-flex_left {
-    margin-left: 193px;
-  }
-
-  .page-main > section > .box-flex_left1 {
-    margin-left: 112px;
-  }
-
-  .cataloging_margin-first {
-    margin-top: 60px;
   }
 
   /* header */
@@ -697,7 +692,13 @@
 
   /* page-main */
 
-  .page-main > section > * {
+  .get-a-presentation__list,
+  .main-title,
+  .link-button,
+  .title,
+  .solution__box,
+  .our-approach__list,
+  .reviews_wrapper {
     margin-left: 24px;
     margin-right: 24px;
   }
@@ -722,24 +723,27 @@
   .main-title {
     font-size: 54px;
     line-height: 64px;
-    margin: 0 16px;
     margin-bottom: 52px;
   }
-
-  .get-a-presentation__link {
-    width: 202px;
-    height: 52px;
-    font-size: 13px;
-  }
-
+  
   /* problem */
 
+  .problem__poor-quality-data {
+    margin-left: 193px;
+  }
 
 
 
 
+  /* cataloging */
 
+  .cataloging__container {
+    margin-left: 112px;
+  }
 
+  .cataloging_margin-first {
+    margin-top: 60px;
+  }
 
 
 
@@ -785,11 +789,11 @@
 
   /* solution */
 
-  /* .solution-marker {
+  /* .box-solution__marker {
     position: relative;
   }
 
-  .solution-marker::before {
+  .box-solution__marker::before {
     content: url(../i/check.svg);
     position: absolute;
     top: -4px;
