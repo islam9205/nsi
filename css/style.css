@@ -790,11 +790,17 @@
 
   .our-approach__list {
     display: flex;
+    margin-bottom: 24px;
   }
 
   .our-approach__list li {
     width: 208px;
     margin-right: 48px;
+    margin-bottom: 0;
+  }
+
+  .our-approach__list h3 {
+    margin-bottom: 0;
   }
 
   /* reviews */
@@ -938,6 +944,11 @@
     grid-column: span 3;
     margin-left: 23px;
     margin-bottom: 16px;
+  }
+
+  @media screen and (min-width: 1440px) {
+
+
   }
 
 
