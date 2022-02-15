@@ -1106,6 +1106,10 @@
 
     /* our-projects */
 
+    .our-projects_title {
+      margin-bottom: 53px;
+    }
+
     .our-projects__mobile {
       display: none;
     }
@@ -1118,6 +1122,30 @@
       padding-left: 32px;
       padding-right: 32px;
       padding-bottom: 74px;
+    }
+
+    /* reviews */
+
+    .reviews__item {
+      margin-right: 48px;
+    }
+
+    .reviews__figure-1,
+    .reviews__figure-3 {
+      width: 145px;
+      height: 145px;
+    }
+
+    .reviews__figure-2,
+    .reviews__figure-4 {
+      width: 125px;
+      height: 125px;
+    }
+
+    .reviews__figure-3 .reviews__img {
+      width: 100%;
+      width: 92px;
+      height: 116px;
     }
 
   }
