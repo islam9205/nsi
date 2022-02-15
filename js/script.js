@@ -20,14 +20,15 @@ $(document).ready(function(){
 $(document).ready(function(){
 	$('.reviews__slider').slick({
 		arrows:true,
+		slidesToShow:2,
     dots:true,
 		autoplay:true,
 		speed:1000,
 		autoplaySpeed:800,
-    appendArrows:$('.reviews__content')
+    appendArrows:$('.reviews__content'),
 		/* responsive:[
 			{
-				breakpoint: 768,
+				breakpoint: 1440,
 				settings: {
 					slidesToShow:2
 				}
