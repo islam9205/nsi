@@ -117,7 +117,6 @@
     list-style: none;
     padding-left: 32px;
     margin-bottom: 44px;
-    z-index: 1;
   }
 
   .item {
@@ -679,6 +678,10 @@
     line-height: 32px;
   }
 
+  .list {
+    margin-bottom: 60px;
+  }
+
   .problem,
   .cataloging,
   .solution {
@@ -782,6 +785,10 @@
 
   .cataloging_margin-first {
     margin-top: 60px;
+  }
+
+  .cataloging_margin-last {
+    padding-bottom: 60px;
   }
 
   /* solution */
@@ -960,6 +967,10 @@
       line-height: 44px;
     }
 
+    .list {
+      margin-bottom: 81px;
+    }
+
     /* header */
 
     .main-header {
@@ -1055,50 +1066,64 @@
     .main-title {
       width: 832px;
     }
+
+    /* problem */
+
+    .problem__poor-quality-data {
+      margin-left: 488px;
+    }
+
+    /* cataloging */
+
+    .cataloging__container {
+      margin-left: 390px;
+    }
+
+    .cataloging__container p {
+      width: 540px;
+    }
+
+    .cataloging_margin-first {
+      margin-top: 84px;
+    }
+
+    .cataloging_margin-last {
+      padding-bottom: 80px;
+    }
+
+     /* solution */
+
+    .solution__box{
+      margin-left: 514px;
+    }
+
+    /* our-approach */
+
+    .our-approach__list li {
+      width: 416px;
+      margin-right: 64px;
+    }
+
+    /* our-projects */
+
+    .our-projects__mobile {
+      display: none;
+    }
+
+    .our-projects__desktop {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      list-style: none;
+      padding-left: 32px;
+      padding-right: 32px;
+    }
+
   }
 
 
   /*
-  /* page-main 
-
-  .get-a-presentation__list,
-  .main-title,
-  .link-button,
-  .title,
-  .our-approach__list,
-  .reviews_wrapper {
-    margin-left: 24px;
-    margin-right: 24px;
-  }
-
-  /* get-a-presentation 
-
-  .page-main .get-a-presentation {
-    background: var(--background-img) url(../i/bg/bg-nsi-768.jpg) no-repeat;
-  }
-
-  .get-a-presentation__list {
-    padding-top: 20px;
-    margin-left: 24px;
-    margin-bottom: 106px;
-  }
-
-  .get-a-presentation__list li:not(:first-child)::before {
-    width: 4.94px;
-    height: 8px;
-  }
-
-  .main-title {
-    font-size: 54px;
-    line-height: 64px;
-    margin-bottom: 52px;
-  }
-
-  /* problem 
-
-  .problem__poor-quality-data {
-    margin-left: 193px;
-  }
+  
 
   /* cataloging 
 
