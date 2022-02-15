@@ -948,65 +948,128 @@
 
   @media screen and (min-width: 1440px) {
 
+    /* Global */
+
+    .title {
+      padding-top: 80px;
+      font-size: 36px;
+      line-height: 44px;
+    }
+
+    /* header */
+
+    .main-header {
+      padding: 0 33px;
+    }
+
+    .menu {
+      margin-left: auto;
+    }
+
+    .burger {
+      display: none;
+    }
+
+    .menu-desktop {
+      display: block;
+    }
+
+    .logo-container {
+      order: -1;
+      margin-left: 0;
+    }
+
+    .main-header__form {
+      order: -1;
+      margin-left: 158.59px;
+    }
+
+    .search {
+      display: block;
+      width: 453px;
+      height: 44px;
+      background: var(--site-search) url(../i/mdi_search-grey.svg) no-repeat 97% 50%;
+      border: none;
+      padding-left: 20px;
+    }
+
+    .search-img {
+      display: none;
+    }
+
 
   }
 
 
   /*
-  .page-footer {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 2vw;
+  /* Global
+
+  .link-button {
+    width: 202px;
+    height: 52px;
+    font-size: 13px;
   }
 
-  .page-footer__logo,
-  .page-footer__list,
-  .page-footer__text {
-    margin-left: 16px;
+  .title {
+    padding-top: 60px;
+    font-size: 30px;
+    line-height: 40px;
   }
 
-  .page-footer__logo {
-    margin-top: 44px;
+  .subtitle {
+    margin-top: 64px;
+    font-size: 20px;
+    line-height: 32px;
   }
 
-  .page-footer__box-link {
-    padding-top: 44px;
+  .problem,
+  .cataloging,
+  .solution {
+    display: flex;
   }
 
-  .page-footer__link-contacts {
-    font-family: "Roboto Condensed", Arial, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 20px;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: var(--telephone-and-mail);
-    margin-bottom: 8px;
+  /* header
+
+  .main-header {
+    height: 80px;
+    padding: 0 24px;
   }
 
-  .page-footer ul {
-    list-style: none;
-    padding-left: 0;
+  .burger {
+    width: 24px;
+    height: 24px;
   }
 
-  .page-footer__item {
-    width: 104px;
+  .burger__span{
+    width: 18px;
   }
 
-  .page-footer__link {
-    color: var(--background-text);
+  .logo-container {
+    width: 168px;
+    height: 40px;
+    margin-left: 24px;
   }
 
-  .page-footer__list_span {
-    grid-column: span 2;
+  .search-img,
+  .main-header__apps {
+    width: 24px;
+    height: 24px;
   }
 
-  .page-footer__text {
-    grid-column: span 2;
-    color: var(--background-text);
-    margin-bottom: 0;
+  .main-header__link {
+    font-size: 13px;
+  }
+
+  /* page-main-blank
+
+  .page-main-blank {
+    height: 568px;
+    color: var(--text-part-blocks);
+    background: var(--background-img) url(../i/bg/bg-nsi-768.jpg) no-repeat;
+  }
+
+  .main-title_margin {
+    padding-top: 200px;
   }
   */
 }
