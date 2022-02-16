@@ -20,7 +20,7 @@ $(document).ready(function(){
 $(document).ready(function(){
 	$('.reviews__slider').slick({
 		arrows:true,
-		slidesToShow:2,
+		slidesToShow:3,
     dots:true,
 		autoplay:true,
 		speed:1000,

@@ -1002,6 +1002,10 @@
     line-height: 44px;
   }
 
+  .subtitle {
+    margin-top: 80px;
+  }
+
   .list {
     margin-bottom: 81px;
   }
@@ -1287,31 +1291,21 @@
     margin-left: 630px;
   }
 
+  /* solution */
+
+  .solution__box {
+    margin-left: 750px;
+  }
+
+  /* our-approach */
+
+  .our-approach__list li {
+    margin-right: 235px;
+  }
+
   /* 
   
-  /* cataloging *
-
-  .cataloging__container {
-    margin-left: 390px;
-  }
-
-  .cataloging__container p {
-    width: 540px;
-  }
-
-  .cataloging_margin-first {
-    margin-top: 84px;
-  }
-
-  .cataloging_margin-last {
-    padding-bottom: 80px;
-  }
-
-   /* solution *
-
-  .solution__box{
-    margin-left: 514px;
-  }
+  
 
   /* slider *
 
