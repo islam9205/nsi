@@ -1281,30 +1281,14 @@
     margin-left: 725px;
   }
 
+  /* cataloging */
+
+  .cataloging__container {
+    margin-left: 630px;
+  }
+
   /* 
   
-
-  /* get-a-presentation *
-
-  .get-a-presentation {
-    background: var(--background-img) url(../i/bg/bg-nsi-1440.jpg) no-repeat;
-  }
-
-  .main-title,
-  .get-a-presentation__link {
-    margin-left: 180px;
-  }
-
-  .main-title {
-    width: 832px;
-  }
-
-  /* problem *
-
-  .problem__poor-quality-data {
-    margin-left: 488px;
-  }
-
   /* cataloging *
 
   .cataloging__container {
