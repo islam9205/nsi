@@ -514,11 +514,11 @@
   .contacts__box-text {
     padding-left: 16px;
     padding-right: 16px;
+    margin-bottom: 0;
   }
 
   .contacts__list {
     list-style: none;
-    padding-top: 24px;
     border-top: 1px solid var(--color-frame);
     border-bottom: 1px solid var(--color-frame);
   }
@@ -526,6 +526,10 @@
   .contacts__list li {
     display: flex;
     margin-bottom: 24px;
+  }
+
+  .contacts__list li:first-child {
+    padding-top: 24px;
   }
 
   .contacts__face {
@@ -571,8 +575,6 @@
     left: 50%;
     transform:translateX(-50%);
     background-color: var(--dark-blocks);
-    margin-left: 0;
-    margin-bottom: 12px;
   }
 
   .contacts__text {
@@ -580,7 +582,7 @@
   }
 
   .contacts_link {
-   margin-top: 25px;
+   margin-top: 38px;
   }
 
   /* footer */
@@ -814,6 +816,20 @@
     margin-bottom: 0;
   }
 
+  /* slider */
+
+  .our-projects__content,
+  .reviews__content {
+    top: 60px;
+    right: 24px;
+  }
+
+  .our-projects__content .slick-arrow,
+  .reviews__content .slick-arrow {
+    width: 40px;
+    height: 40px;
+  }
+
   /* reviews */
 
   .reviews__item {
@@ -824,6 +840,11 @@
     width: 136px;
     height: 136px;
     margin-right: 24px;
+  }
+
+  .reviews__figure-3 {
+    width: 92px;
+    height: 116px;
   }
 
   .reviews__img-1 {
@@ -843,13 +864,23 @@
     padding-left: 0;
     padding-right: 0;
     border: none;
+
+  }
+
+  .contacts_title {
+    margin-bottom: 44px;
   }
 
   .contacts__list li {
-    padding-top: 22.14px;
+    padding-top: 29px;
     padding-left: 20.58px;
     padding-right: 36px;
+    margin-bottom: 0;
     border: 1px solid var(--color-frame);
+  }
+
+  .contacts__list li:first-child {
+    padding-top: 29px;
   }
 
   .contacts__conterner_margin {
@@ -857,20 +888,19 @@
   }
 
   .contacts__box-text {
-    top: 390px;
+    top: 393px;
     left: 48%;
+  }
+
+  .contacts__line {
+    height: 76px;
+    padding-top: 38px;
+    border-bottom: 1px solid var(--color-frame);
   }
 
   .contacts_link {
     margin: 0 auto;
     margin-right: 38%;
-    margin-top: 25px;
-    margin-bottom: 24px;
-  }
-
-  .contacts__line {
-    height: 1px;
-    background-color: var(--color-frame);
   }
 
   /* footer */
@@ -1035,7 +1065,7 @@
       color: var(--text-part-blocks);
       background: var(--background-img) url(../i/bg/bg-nsi-1440.jpg) no-repeat;
     }
-    
+
     .main-title_margin {
       padding-top: 200px;
     }
@@ -1062,7 +1092,7 @@
     .get-a-presentation__link {
       margin-left: 180px;
     }
-  
+
     .main-title {
       width: 832px;
     }
@@ -1095,6 +1125,13 @@
 
     .solution__box{
       margin-left: 514px;
+    }
+
+    /* slider */
+
+    .reviews__content {
+      top: 70px;
+      right: 32px;
     }
 
     /* our-approach */
@@ -1148,13 +1185,23 @@
       height: 116px;
     }
 
+    /* contacts */
+
+    /* .contacts_title {
+      margin-bottom: 44px;
+    } */
+
+    /* .contacts__list {
+      padding-top: 0;
+    } */
+
   }
 
 
   /*
-  
 
-  /* cataloging 
+
+  /* cataloging
 
   .cataloging__container {
     margin-left: 112px;
@@ -1164,7 +1211,7 @@
     margin-top: 60px;
   }
 
-  /* solution 
+  /* solution
 
   .solution__box{
     margin-left: 213px;
