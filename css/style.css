@@ -1197,30 +1197,128 @@
       width: 100%;
     }
 
+    .contacts__box-text {
+      left: 50%;
+    }
+
     .contacts__line {
       border: 1px solid var(--color-frame);
     }
 
+    .contacts_link {
+      margin: 0 auto;
+    }
+
+    /* footer */
+
+    .page-footer {
+      grid-template-columns: 540px 179px 1fr 359px;
+    }
+
+    .page-footer__logo {
+      margin-left: 23px;
+    }
+
+    .page-footer__box-link,
+    .page-footer__text-1,
+    .page-footer__text-2 {
+      margin-right: auto;
+      margin-left: 0;
+    }
+
+    .page-footer__text-1 {
+      width: 296px;
+    }
+
+    .page-footer__text-3 {
+      grid-row-end: 3;
+      grid-column-start: 2;
+      grid-column: span 2;
+    }
+
+    /*
+    .page-footer {
+    display: grid;
+    grid-template-rows: 1fr 1fr 50px;
+    grid-template-columns: 1fr 1fr 1fr 235px;
+    grid-gap: 0;
+    }
+
+    .page-footer__logo {
+      width: 119px;
+      height: 28px;
+      margin-top: 60px;
+      margin-left: 23px;
+    }
+
+    .page-footer__box-link {
+      grid-column-start: 4;
+      margin-top: 60px;
+      margin-right: 47px;
+      margin-left: auto;
+    }
+
+    .page-footer__link-contacts {
+      font-size: 16px;
+      line-height: 24px;
+    }
+
+    .page-footer__list-1 {
+      grid-row-start: 1;
+      grid-column-start: 2;
+      margin-top: 60px;
+    }
+
+    .page-footer__list-2 {
+      grid-row-start: 1;
+      grid-column-start: 3;
+      margin-top: 60px;
+    }
+
+    .page-footer__list-3 {
+      grid-row-start: 2;
+      grid-column-start: 2;
+    }
+
+    .page-footer__list-4 {
+      grid-row-start: 2;
+      grid-column-start: 3;
+    }
+
+    .page-footer__list-5 {
+      grid-row-start: 2;
+      grid-column-start: 1;
+      margin-left: 23px;
+    }
+
+    .page-footer__item {
+      width: 100%;
+    }
+
+    .page-footer__text-1 {
+      grid-row-start: 2;
+      grid-column-start: 4;
+      width: 167px;
+      margin-right: 24px;
+      margin-left: auto;
+    }
+
+    .page-footer__text-2 {
+      grid-row-start: 3;
+      grid-column-start: 4;
+      margin-right: 24px;
+      margin-bottom: 16px;
+      margin-left: auto;
+    }
+
+    .page-footer__text-3 {
+      grid-row-start: 3;
+      grid-column-start: 1;
+      grid-column: span 3;
+      margin-left: 23px;
+      margin-bottom: 16px;
+    }
+    */
+
   }
-
-
-  /*
-
-
-  /* cataloging
-
-  .cataloging__container {
-    margin-left: 112px;
-  }
-
-  .cataloging_margin-first {
-    margin-top: 60px;
-  }
-
-  /* solution
-
-  .solution__box{
-    margin-left: 213px;
-  }
-  */
 }
