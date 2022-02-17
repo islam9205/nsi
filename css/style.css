@@ -205,6 +205,7 @@
 
   .get-a-presentation__list,
   .main-title,
+  .order-service,
   .link-button,
   .title,
   .problem__poor-quality-data,
@@ -1324,118 +1325,4 @@
   .page-footer__text-3 {
     margin-left: 790px;
   }
-
-  /* 
-  
-  
-
-  /* slider *
-
-  .reviews__content {
-    top: 70px;
-    right: 32px;
-  }
-
-  /* our-approach 
-
-  .our-approach__list li {
-    width: 416px;
-    margin-right: 64px;
-  }
-
-  /* our-projects 
-
-  .our-projects_title {
-    margin-bottom: 53px;
-  }
-
-  .our-projects__mobile {
-    display: none;
-  }
-
-  .our-projects__desktop {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-bottom: 74px;
-  }
-
-  /* reviews 
-
-  .reviews__item {
-    margin-right: 48px;
-  }
-
-  .reviews__figure-1,
-  .reviews__figure-3 {
-    width: 145px;
-    height: 145px;
-  }
-
-  .reviews__figure-2,
-  .reviews__figure-4 {
-    width: 125px;
-    height: 125px;
-  }
-
-  .reviews__figure-3 .reviews__img {
-    width: 100%;
-    width: 92px;
-    height: 116px;
-  }
-
-  /* contacts 
-
-  .contacts__list,
-  .contacts__line {
-    margin-left: 32px;
-    margin-right: 32px;
-  }
-
-  .contacts__list li {
-    width: 100%;
-  }
-
-  .contacts__box-text {
-    left: 50%;
-  }
-
-  .contacts__line {
-    border: 1px solid var(--color-frame);
-  }
-
-  .contacts_link {
-    margin: 0 auto;
-  }
-
-  /* footer 
-
-  .page-footer {
-    grid-template-columns: 540px 179px 1fr 359px;
-  }
-
-  .page-footer__logo {
-    margin-left: 23px;
-  }
-
-  .page-footer__box-link,
-  .page-footer__text-1,
-  .page-footer__text-2 {
-    margin-right: auto;
-    margin-left: 0;
-  }
-
-  .page-footer__text-1 {
-    width: 296px;
-  }
-
-  .page-footer__text-3 {
-    grid-column-start: 2;
-    grid-column: span 3;
-    margin-left: 555px;
-  }
-  */
 }
