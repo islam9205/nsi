@@ -1225,7 +1225,9 @@
   }
 
   .page-footer__logo {
-    margin-left: 23px;
+    width: 169px;
+    height: 40px;
+    margin-left: 32px;
   }
 
   .page-footer__box-link,
@@ -1235,8 +1237,18 @@
     margin-left: 0;
   }
 
+  .page-footer__link-contacts {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .page-footer__list-5 {
+    margin-left: 32px;
+  }
+
   .page-footer__text-1 {
     width: 296px;
+    margin-top: 40px;
   }
 
   .page-footer__text-3 {
@@ -1301,6 +1313,16 @@
 
   .our-approach__list li {
     margin-right: 235px;
+  }
+
+  /* footer */
+
+  .page-footer {
+    grid-template-columns: 770px 179px 1fr 359px;
+  }
+
+  .page-footer__text-3 {
+    margin-left: 790px;
   }
 
   /* 
