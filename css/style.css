@@ -177,6 +177,20 @@
     color: var(--background-text);
   }
 
+  .what-do-you-need__title {
+    margin-bottom: 12px;
+  }
+
+  .what-do-you-need__text {
+    margin-top: 12px;
+    margin-left: 16px;
+    opacity: 0.6;
+  }
+
+  .what-do-you-need__form {
+    margin-left: 16px;
+  }
+
   /* header */
 
   .main-header {
