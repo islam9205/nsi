@@ -290,15 +290,12 @@
 
   /* problem */
 
-  .marker {
+  .marker,
+  .marker-pm {
     position: relative;
   }
 
-  .marker:hover {
-    opacity: 1;
-  }
-
-  .marker:before, .marker:after {
+  .marker:before, .marker:after, .marker-pm:before {
     position: absolute;
     top: 2px;
     right: 25px;
@@ -314,6 +311,14 @@
 
   .marker:after {
     transform: rotate(-45deg);
+  }
+
+  .marker-pm:before {
+    top: 6px;
+    right: 8px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
   }
 
   /* cataloging */
