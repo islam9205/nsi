@@ -156,6 +156,7 @@
   .employees-opinion__box {
     display: flex;
     margin-left: 64px;
+    margin-bottom: 44px;
   }
 
   .employees-opinion__box img {
@@ -166,6 +167,10 @@
   .employees-opinion__box p {
     margin-top: 4px;
     margin-bottom: 4px;
+  }
+
+  .employees-opinion__box h3 {
+    font-size: 14px;
   }
 
   .employees-opinion__box p {
@@ -758,6 +763,22 @@
     display: flex;
   }
 
+  /* purchasing-marketing */
+
+  .employees-opinion__text {
+    font-size: 20px;
+    line-height: 32px;
+    margin: 70px 96px 24px 24px;
+    padding-left: 73px;
+    background-position: 0 -12px;
+    background-size: 56px 56px;
+  }
+
+  .employees-opinion__box {
+    margin-left: 96px;
+    margin-bottom: 80px;
+  }
+
   /* header */
 
   .main-header {
@@ -882,12 +903,18 @@
 
   /* solution */
 
+  .solution__box{
+    margin-left: 213px;
+  }
+
   .result__title {
     width: 260px;
   }
 
-  .solution__box{
-    margin-left: 213px;
+  .result__list {
+    padding-bottom: 0;
+    margin-top: 62px;
+    margin-left: 130px;
   }
 
   /* our-approach */
@@ -955,7 +982,6 @@
     padding-left: 0;
     padding-right: 0;
     border: none;
-
   }
 
   .contacts_title {
@@ -1098,6 +1124,19 @@
     margin-bottom: 81px;
   }
 
+  /* purchasing-marketing */
+
+  .employees-opinion__text {
+    margin: 120px 360px 24px 320px;
+    padding-left: 93px;
+    background-position: 0 -13px;
+    background-size: 64px 64px;
+  }
+
+  .employees-opinion__box {
+    margin-left: 415px;
+  }
+
   /* header */
 
   .main-header {
@@ -1211,7 +1250,7 @@
 
   .description {
     margin-top: 80px;
-    margin-left: 480px;
+    margin-left: 420px;
   }
 
   /* cataloging */
@@ -1236,6 +1275,19 @@
 
   .solution__box{
     margin-left: 514px;
+  }
+
+  .result__title {
+    width: 430px;
+  }
+
+  .result__list {
+    margin-top: 82px;
+    margin-left: 220px;
+  }
+
+  .result__item {
+    width: 90%;
   }
 
   /* slider */
@@ -1362,6 +1414,19 @@
 
 @media screen and (min-width: 1920px) {
 
+  /* purchasing-marketing */
+
+  .employees-opinion__text {
+    margin: 130px 475px 24px 480px;
+    padding-left: 93px;
+    background-position: 0 -13px;
+    background-size: 64px 64px;
+  }
+
+  .employees-opinion__box {
+    margin-left: 570px;
+  }
+
   /* header */
 
   .main-header__form {
@@ -1411,7 +1476,7 @@
   }
 
   .description {
-    margin-left: 720px;
+    margin-left: 680px;
   }
 
   /* cataloging */
@@ -1424,6 +1489,10 @@
 
   .solution__box {
     margin-left: 750px;
+  }
+
+  .result__list {
+    margin-left: 480px;
   }
 
   /* our-approach */
