@@ -147,21 +147,24 @@
 
   .employees-opinion__text {
     /* position: relative; */
-    margin: 49px 16px 20px 64px;
-    /* z-index: 1; */
+    margin: 49px 16px 20px 24px;
+    padding-left: 40px;
+    background: url(../i/format_quote.svg) no-repeat;
+    background-position: 0 -8px;
+    background-size: 40px 40px;
   }
 
-  .employees-opinion__text::before {
-    /* content: url(../i/format_quote.svg); */
+  /* .employees-opinion__text::before {
+    content: url(../i/format_quote.svg);
     content: '';
     background: url(../i/format_quote.svg) no-repeat;
     background-size: 40px 40px;
-    /* position: absolute; */
-    /* width: 40px;
-    height: 40px; */
+    position: absolute;
+    width: 40px;
+    height: 40px;
     left: 20px;
-    /* z-index: 2; */
-  }
+    z-index: 2;
+  } */
 
   /* header */
 
