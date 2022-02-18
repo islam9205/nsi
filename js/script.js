@@ -8,7 +8,7 @@ $(document).ready(function(){
     appendArrows:$('.our-projects__content'),
 		responsive:[
 			{
-				breakpoint: 320,
+				breakpoint: 330,
 				settings: {
 					slidesToShow:2
 				}
@@ -26,19 +26,19 @@ $(document).ready(function(){
 		speed:1000,
 		autoplaySpeed:800,
     appendArrows:$('.reviews__content'),
-		/* responsive:[
+		responsive:[
 			{
-				breakpoint: 1440,
-				settings: {
-					slidesToShow:2
-				}
-			},
-			{
-				breakpoint: 550,
+				breakpoint: 770,
 				settings: {
 					slidesToShow:1
 				}
+			},
+			{
+				breakpoint: 1450,
+				settings: {
+					slidesToShow:2
+				}
 			}
-		] */
+		]
 	});
 });
