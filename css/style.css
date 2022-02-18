@@ -49,6 +49,21 @@
 
 /* Global */
 
+.visuallyhidden:not(:focus):not(:active) {
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .page-body {
   margin: 0;
   padding: 0;
@@ -126,6 +141,25 @@
   .our-approach,
   .reviews {
     background: var(--light-blocks);
+  }
+
+  /* purchasing-marketing */
+
+  .employees-opinion__text {
+    /* position: relative; */
+    margin: 49px 16px 20px 64px;
+    z-index: 1;
+  }
+
+  .employees-opinion__text::before {
+    /* content: url(../i/format_quote.svg); */
+    content: '';
+    background-image: url(../i/format_quote.svg) no-repeat;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 20px;
+    z-index: 2;
   }
 
   /* header */
@@ -343,6 +377,11 @@
     position: absolute;
     top: -4px;
     left: -35px;
+  }
+
+  .result {
+    padding-bottom: 44px;
+    margin-bottom: 0;
   }
 
   /* our-approach */
