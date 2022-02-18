@@ -146,7 +146,6 @@
   /* purchasing-marketing */
 
   .employees-opinion__text {
-    /* position: relative; */
     margin: 49px 16px 20px 24px;
     padding-left: 40px;
     background: url(../i/format_quote.svg) no-repeat;
@@ -154,17 +153,24 @@
     background-size: 40px 40px;
   }
 
-  /* .employees-opinion__text::before {
-    content: url(../i/format_quote.svg);
-    content: '';
-    background: url(../i/format_quote.svg) no-repeat;
-    background-size: 40px 40px;
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    left: 20px;
-    z-index: 2;
-  } */
+  .employees-opinion__box {
+    display: flex;
+    margin-left: 64px;
+  }
+
+  .employees-opinion__box img {
+    margin-right: 12px;
+  }
+
+  .employees-opinion__box h3,
+  .employees-opinion__box p {
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+
+  .employees-opinion__box p {
+    color: var(--background-text);
+  }
 
   /* header */
 
@@ -383,7 +389,7 @@
     left: -35px;
   }
 
-  .result {
+  .result__list {
     padding-bottom: 44px;
     margin-bottom: 0;
   }
@@ -875,6 +881,10 @@
   }
 
   /* solution */
+
+  .result__title {
+    width: 260px;
+  }
 
   .solution__box{
     margin-left: 213px;
