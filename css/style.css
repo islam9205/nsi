@@ -114,7 +114,7 @@
   background-color: var(--dark-blocks);
 }
 
-@media screen and (min-width: 320px) {
+/* @media screen and (min-width: 320px) { */
 
   /* Global */
 
@@ -771,7 +771,7 @@
   .page-footer__text-3 {
     margin-bottom: 24px;
   }
-}
+/* } */
 
 @media screen and (min-width: 768px) {
 
