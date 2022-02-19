@@ -98,21 +98,21 @@
           <p class="what-do-you-need__text">Предоставьте данные и оставьте заявку</p>
         </div>
         <form class="what-do-you-need__form form-w-d-y-n" action="https://echo.htmlacademy.ru" method="post">
-          <p>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email">
+          <p class="form-w-d-y-n__text_margin">
+            <label class="form-w-d-y-n__text" for="name">Имя:</label>
+            <input class="what-do-you-need__input" type="text" id="name" name="name">
           </p>
-          <p>
-            <label for="text">Название компании:</label>
-            <input type="text" id="text" name="company-name">
+          <p class="form-w-d-y-n__text_margin">
+            <label class="form-w-d-y-n__text" for="tel">Телефон:</label>
+            <input class="what-do-you-need__input" type="text" id="tel" name="tel">
           </p>
-          <p>
-            <label for="a-comment">Комментарий:</label>
-            <textarea name="a-comment" id="a-comment" cols="30" rows="10"></textarea>
+          <p class="form-w-d-y-n__text_margin-question">
+            <label class="form-w-d-y-n__text" for="question">Вопрос:</label>
+            <textarea name="question" id="question" cols="30" rows="10"></textarea>
           </p>
-          <p>
+          <p class="form-w-d-y-n__text_margin-i-agree">
             <input type="checkbox" id="i-agree" name="i-agree">
-            <label for="i-agree">Я соглашаюсь с политикой конфиденциальности</label>
+            <label for="i-agree"><span class="form-w-d-y-n__text-checked">Я соглашаюсь с</span> политикой конфиденциальности</label>
           </p>
           <input type="submit" value="Отправить">
         </form>

@@ -36,10 +36,10 @@
 
   /* background color */
   --site-search: #F3F3F3;
-  --light-blocks-320: #E5E5E5;
   --light-blocks: #FBFBFB;
   --dark-blocks: #232630;
   --dot-color: #CCC;
+  --input-color: #343845;
   --background-img: rgba(0, 0, 0, 0.4);
 
   /* border color */
@@ -183,12 +183,39 @@
 
   .what-do-you-need__text {
     margin-top: 12px;
+    margin-bottom: 20px;
     margin-left: 16px;
     opacity: 0.6;
   }
 
   .what-do-you-need__form {
     margin-left: 16px;
+  }
+
+  .form-w-d-y-n__text_margin {
+    margin-bottom: 16px;
+  }
+
+  .form-w-d-y-n__text_margin-question,
+  .form-w-d-y-n__text_margin-i-agree {
+    margin-bottom: 20px;
+  }
+
+  .form-w-d-y-n__text,
+  .form-w-d-y-n__text-checked {
+    opacity: 0.6;
+  }
+
+  .form-w-d-y-n__text {
+    display: block;
+    width: 61px;
+    margin-bottom: 4px;
+  }
+
+  .what-do-you-need__input {
+    width: 288px;
+    height: 44px;
+    background-color: var(--input-color);
   }
 
   /* header */
@@ -584,6 +611,7 @@
     font-family: "Roboto", Arial, sans-serif;
     font-weight: 500;
     font-size: 14px;
+    color: var(--review-titles);
   }
 
   .reviews h3 + p {
