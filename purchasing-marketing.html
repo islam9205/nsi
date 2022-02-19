@@ -98,30 +98,28 @@
           <p class="what-do-you-need__text">Предоставьте данные и оставьте заявку</p>
         </div>
         <form class="what-do-you-need__form form-w-d-y-n" action="https://echo.htmlacademy.ru" method="post">
-          <p class="form-w-d-y-n__text_margin">
-            <label class="form-w-d-y-n__text" for="name">Имя:</label>
-            <input class="what-do-you-need__input" type="text" id="name" name="name">
-          </p>
-          <p class="form-w-d-y-n__text_margin">
-            <label class="form-w-d-y-n__text" for="tel">Телефон:</label>
-            <input class="what-do-you-need__input" type="text" id="tel" name="tel" placeholder="+7 (996) 241-69-16">
-          </p>
+          <div class="form-w-d-y-n__box">
+            <p class="form-w-d-y-n__text_margin form-w-d-y-n__text_margin-first">
+              <label class="form-w-d-y-n__text" for="name">Имя:</label>
+              <input class="what-do-you-need__input" type="text" id="name" name="name">
+            </p>
+            <p class="form-w-d-y-n__text_margin">
+              <label class="form-w-d-y-n__text" for="tel">Телефон:</label>
+              <input class="what-do-you-need__input" type="text" id="tel" name="tel" placeholder="+7 (996) 241-69-16">
+            </p>
+          </div>
           <p class="form-w-d-y-n__text_margin-question">
             <label class="form-w-d-y-n__text" for="question">Вопрос:</label>
             <textarea class="what-do-you-need__textarea" name="question" id="question" cols="30" rows="10"></textarea>
           </p>
           <p class="form-w-d-y-n__text_margin-i-agree">
-            <input type="checkbox" id="i-agree" name="i-agree">
-            <label for="i-agree"><span class="form-w-d-y-n__text-checked">Я соглашаюсь с</span> политикой конфиденциальности</label>
+            <label class="sidebar__label" for="i-agree">
+              <input class="sidebar__input-checkdox" checked id="i-agree" type="checkbox" name="i-agree" value="yes">
+              <span class="sidebar__fack"></span>
+              <span class="sidebar__span"><span class="form-w-d-y-n__text-checked">Я соглашаюсь с</span> политикой конфиденциальности</span>
+            </label>
           </p>
-
-          <label class="sidebar__label" for="baxter_of_california">
-            <input class="sidebar__input-checkdox" checked id="baxter_of_california" type="checkbox" name="Baxter of California" value="yes">
-            <span class="sidebar__fack"></span>
-            <span class="text sidebar__span">Baxter of California</span>
-          </label>
-
-          <input type="submit" value="Отправить">
+          <input class="form-w-d-y-n__submit" type="submit" value="Отправить">
         </form>
       </section>
     </main>
