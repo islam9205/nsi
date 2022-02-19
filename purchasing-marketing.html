@@ -105,7 +105,7 @@
             </p>
             <p class="form-w-d-y-n__text_margin">
               <label class="form-w-d-y-n__text" for="tel">Телефон:</label>
-              <input class="form-w-d-y-n__input" type="text" id="tel" name="tel" placeholder="+7 (996) 241-69-16">
+              <input class="form-w-d-y-n__input" type="text" id="tel" name="tel" placeholder="+7 (996) 241-69-16" onkeyup="this.value = this.value.replace(/[^\d]/g,'');">
             </p>
           </div>
           <p class="form-w-d-y-n__text_margin-question">

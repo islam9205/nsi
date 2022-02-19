@@ -905,40 +905,6 @@
     margin-bottom: 80px;
   }
 
-  /* purchasing-marketing */
-
-  .employees-opinion__text {
-    margin: 49px 16px 20px 24px;
-    padding-left: 40px;
-    background: url(../i/format_quote.svg) no-repeat;
-    background-position: 0 -8px;
-    background-size: 40px 40px;
-  }
-
-  .employees-opinion__box {
-    display: flex;
-    margin-left: 64px;
-    margin-bottom: 44px;
-  }
-
-  .employees-opinion__box img {
-    margin-right: 12px;
-  }
-
-  .employees-opinion__box h3,
-  .employees-opinion__box p {
-    margin-top: 4px;
-    margin-bottom: 4px;
-  }
-
-  .employees-opinion__box h3 {
-    font-size: 14px;
-  }
-
-  .employees-opinion__box p {
-    color: var(--background-text);
-  }
-
   .what-do-you-need__text {
     margin-bottom: 36px;
     margin-left: 24px;
@@ -1653,24 +1619,14 @@
     margin-left: 513px;
   }
 
-/*
-  .what-do-you-need {
-    display: flex;
+  .form-w-d-y-n__input {
+    width: 463px;
   }
 
-  .what-do-you-need__form {
-    margin-top: 66px;
-    margin-left: 274px;
+  .form-w-d-y-n__textarea {
+    width: 975px;
   }
 
-  .what-do-you-need__text {
-    margin-left: 32px;
-  }
-
-  .form-w-d-y-n__submit {
-    margin-bottom: 80px;
-  }
- */
   /* header */
 
   .main-header__form {
