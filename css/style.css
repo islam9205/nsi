@@ -790,7 +790,6 @@
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 2vw;
   position: relative;
 }
 
@@ -862,7 +861,7 @@
   height: 1px;
   background-color: var(--site-search);
   position: absolute;
-  bottom: 180px;
+  bottom: 145px;
 }
 
 @media screen and (min-width: 768px) {
@@ -1230,7 +1229,6 @@
     display: grid;
     grid-template-rows: 1fr 1fr 50px;
     grid-template-columns: 1fr 1fr 1fr 235px;
-    grid-gap: 0;
   }
 
   .page-footer__logo {
@@ -1309,7 +1307,7 @@
   }
 
   .page-footer__line {
-    bottom: 60px;
+    bottom: 52px;
   }
 }
 
@@ -1659,11 +1657,6 @@
     grid-column-start: 2;
     grid-column: span 3;
     margin-left: 555px;
-  }
-
-  .page-footer__line {
-    background-color: red;
-    bottom: 60px;
   }
 }
 
