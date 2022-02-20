@@ -528,7 +528,7 @@
 /* our-approach */
 
 .our-approach__title {
-  margin-bottom: 100px;
+  margin-bottom: 44px;
 }
 
 .our-approach__list {
@@ -539,13 +539,12 @@
 }
 
 .our-approach__list li {
-  margin-bottom: 24px;
+  padding-top: 16px;
   padding-bottom: 16px;
   border-bottom: 1px solid var(--site-search);
 }
 
 .our-approach__list li:last-child {
-  margin-bottom: 0;
   border-bottom: none;
 }
 
@@ -1008,8 +1007,6 @@
   .order-service__text,
   .link-button,
   .title,
-  .our-approach__item-1 h3,
-  .our-approach__item-3 h3,
   .reviews_wrapper {
     margin-left: 24px;
     margin-right: 24px;
@@ -1096,80 +1093,40 @@
 
   /* our-approach */
 
+  .our-approach__title {
+    margin-bottom: 40px;
+  }
+
   .our-approach__list {
     display: flex;
   }
 
   .our-approach__list li {
-    width: 208px;
-    /* height: 180px; */
     padding-top: 24px;
-
-    margin-right: 48px;
+    padding-bottom: 24px;
     margin-bottom: 0;
     border-bottom: none;
-    /* border-right: 1px solid var(--site-search); */
-    border-right: 1px solid red;
+    border-right: 1px solid var(--site-search);
   }
 
   .our-approach__list li:last-child {
     border-right: none;
   }
 
-
-
-/*
-  .our-approach__list li {
-    margin-bottom: 24px;
-    height: 120px;
-    border-bottom: 1px solid var(--site-search);
-  }
-
-  .our-approach__list li:last-child {
-    height: 100px;
-    margin-bottom: 0;
-    border-bottom: none;
-  }
-
-  .our-approach__item-1::before {
-    content: url(../i/block-our-approach/the-fire.svg);
-    margin-left: 16px;
-  }
-
-  .our-approach__item-2::before {
-    content: url(../i/block-our-approach/user.png);
-    margin-left: 16px;
-  }
-
+  .our-approach__item-1::before,
+  .our-approach__item-2::before,
   .our-approach__item-3::before {
-    content: url(../i/block-our-approach/shield.svg);
-    margin-left: 16px;
+    margin-left: 24px;
   }
 
- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-  /* .our-approach__list h3 {
-    margin-bottom: 0;
-  } */
-
-  .our-approach__item-1 h3 {
-    margin-right: 0;
+  .our-approach__list h3 {
+    font-size: 18px;
+    line-height: 28px;
+    margin: 44px 0 0 24px;
   }
 
   .our-approach__item-3 h3 {
-    margin-left: 0;
+    width: 210px;
   }
 
   /* slider */
@@ -1473,7 +1430,6 @@
   .get-a-presentation__list,
   .link-button,
   .title,
-  .our-approach__list,
   .reviews_wrapper {
     margin-left: 30px;
     margin-right: 30px;
@@ -1563,9 +1519,27 @@
 
   /* our-approach */
 
+  .our-approach__title {
+    margin-bottom: 56px;
+  }
+
   .our-approach__list li {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .our-approach__item-1::before,
+  .our-approach__item-2::before,
+  .our-approach__item-3::before {
+    margin-left: 30px;
+  }
+
+  .our-approach__list h3 {
+    font-size: 20px;
+    line-height: 32px;
     width: 416px;
-    margin-right: 64px;
+    margin-left: 30px;
+    margin-right: 80px;
   }
 
   /* our-projects */
@@ -1774,7 +1748,7 @@
   /* our-approach */
 
   .our-approach__list li {
-    margin-right: 235px;
+    margin-right: 120px;
   }
 
   /* footer */
