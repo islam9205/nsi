@@ -833,6 +833,22 @@
   padding-left: 0;
 }
 
+.page-footer__list-1,
+.page-footer__list-2,
+.page-footer__list-3,
+.page-footer__list-4 {
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.page-footer ul li {
+  margin-bottom: 8px;
+}
+
+.page-footer ul li:last-child {
+  margin-bottom: 0;
+}
+
 .page-footer__item {
   width: 104px;
 }
