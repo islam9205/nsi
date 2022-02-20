@@ -317,7 +317,7 @@
   height: 20px;
 }
 
-.burger__span{
+.burger__span {
   display: block;
   transition: all 0.3s;
   width: 15px;
@@ -1373,9 +1373,18 @@
     font-family: "Roboto", Arial, sans-serif;
     font-size: 14px;
     line-height: 20px;
+    color: var(--background-text);
     background: var(--site-search) url(../i/mdi_search-grey.svg) no-repeat 97% 50%;
     border: none;
     padding-left: 20px;
+  }
+
+  .search::placeholder {
+    color: var(--background-text);
+  }
+
+  .search:focus {
+    outline: none;
   }
 
   .search-img {
