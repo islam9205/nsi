@@ -809,13 +809,11 @@
 
 .page-footer__box-link {
   margin-top: 44px;
+  margin-bottom: 24px;
 }
 
 .page-footer__link-contacts {
   display: block;
-}
-
-.page-footer__link-contacts {
   font-family: "Roboto Condensed", Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -824,6 +822,9 @@
   text-transform: uppercase;
   text-decoration: none;
   color: var(--telephone-and-mail);
+}
+
+.page-footer__link-contacts:nth-of-type(1) {
   margin-bottom: 8px;
 }
 
@@ -842,6 +843,7 @@
 
 .page-footer__list-5 {
   grid-column: span 2;
+  margin-bottom: 41px;
 }
 
 .page-footer__text-1,
@@ -849,7 +851,8 @@
 .page-footer__text-3 {
   grid-column: span 2;
   color: var(--background-text);
-  margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 8px;
 }
 
 .page-footer__text-3 {
