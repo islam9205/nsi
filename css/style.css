@@ -836,7 +836,8 @@
 .page-footer__list-1,
 .page-footer__list-2,
 .page-footer__list-3,
-.page-footer__list-4 {
+.page-footer__list-4,
+.page-footer__list-5 {
   margin-top: 0;
   margin-bottom: 24px;
 }
@@ -880,7 +881,7 @@
   height: 1px;
   background-color: var(--site-search);
   position: absolute;
-  bottom: 145px;
+  bottom: 155px;
 }
 
 @media screen and (min-width: 768px) {
@@ -1305,6 +1306,7 @@
     grid-row-start: 2;
     grid-column-start: 4;
     width: 167px;
+    margin-top: 15px;
     margin-right: 24px;
     margin-left: auto;
   }
@@ -1326,7 +1328,7 @@
   }
 
   .page-footer__line {
-    bottom: 52px;
+    bottom: 70px;
   }
 }
 
