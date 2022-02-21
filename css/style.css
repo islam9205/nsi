@@ -705,7 +705,6 @@
 /* contacts */
 
 .contacts {
-  position: relative;
   padding-bottom: 44px;
 }
 
@@ -768,9 +767,13 @@
   text-decoration: none;
 }
 
+.contacts__line {
+  position: relative;
+}
+
 .contacts__box-text {
   position: absolute;
-  top: 583px;
+  top: -63px;
   left: 50%;
   transform:translateX(-50%);
   background-color: var(--dark-blocks);
@@ -1221,6 +1224,11 @@
 
   .contacts__list li:first-child {
     padding-top: 29px;
+    margin-left: auto;
+  }
+
+  .contacts__list li:last-child {
+    margin-right: auto;
   }
 
   .contacts__conterner_margin {
@@ -1228,7 +1236,7 @@
   }
 
   .contacts__box-text {
-    top: 393px;
+    top: -25px;
     left: 48%;
   }
 
