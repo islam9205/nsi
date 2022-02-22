@@ -887,6 +887,25 @@
   bottom: 155px;
 }
 
+@media screen and (min-width: 600px) {
+  
+  .form-w-d-y-n__box {
+    display: flex;
+  }
+
+  .form-w-d-y-n__text_margin-first {
+    margin-right: 17px;
+  }
+
+  .form-w-d-y-n__input {
+    width: 255px;
+  }
+
+  .form-w-d-y-n__textarea {
+    width: 560px;
+  }
+}
+
 @media screen and (min-width: 768px) {
 
   /* Global */
