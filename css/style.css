@@ -887,6 +887,15 @@
   bottom: 155px;
 }
 
+@media screen and (min-width: 480px) {
+
+  .link-button {
+    width: 202px;
+    height: 52px;
+    font-size: 13px;
+  }
+}
+
 @media screen and (min-width: 600px) {
   
   .form-w-d-y-n__box {
@@ -904,17 +913,22 @@
   .form-w-d-y-n__textarea {
     width: 560px;
   }
+
+  .form-w-d-y-n__fack {
+    width: 20px;
+  }
+
+  .form-w-d-y-n__submit {
+    font-size: 13px;
+    width: 117px;
+    height: 52px;
+    margin-bottom: 60px;
+  }
 }
 
 @media screen and (min-width: 768px) {
 
   /* Global */
-
-  .link-button {
-    width: 202px;
-    height: 52px;
-    font-size: 13px;
-  }
 
   .title {
     padding-top: 60px;
@@ -964,14 +978,6 @@
     margin-right: 24px;
   }
 
-  .form-w-d-y-n__box {
-    display: flex;
-  }
-
-  .form-w-d-y-n__text_margin-first {
-    margin-right: 17px;
-  }
-
   .form-w-d-y-n__input {
     width: 333px;
   }
@@ -986,17 +992,6 @@
 
   .form-w-d-y-n__text_margin-i-agree {
     margin-bottom: 28px;
-  }
-
-  .form-w-d-y-n__fack {
-    width: 20px;
-  }
-
-  .form-w-d-y-n__submit {
-    font-size: 13px;
-    width: 117px;
-    height: 52px;
-    margin-bottom: 60px;
   }
 
   /* header */
@@ -1359,6 +1354,18 @@
   }
 }
 
+@media screen and (min-width: 850px) {
+
+  .what-do-you-need {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .what-do-you-need__form {
+    align-self: center;
+  }
+}
+
 @media screen and (min-width: 1440px) {
 
   /* Global */
@@ -1392,9 +1399,11 @@
 
   .what-do-you-need {
     display: flex;
+    flex-direction: row;
   }
 
   .what-do-you-need__form {
+    align-self: auto;
     margin-top: 66px;
     margin-left: 274px;
   }
