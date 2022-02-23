@@ -48,6 +48,20 @@
 
 /* Global */
 
+.page-body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--main-color);
+  background-color: var(--text-part-blocks);
+}
+
+.page-body.lock {
+  overflow: hidden;
+}
+
 .visuallyhidden:not(:focus):not(:active) {
 
   width: 1px;
@@ -61,16 +75,6 @@
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-
-.page-body {
-  margin: 0;
-  padding: 0;
-  font-family: "Roboto", Arial, sans-serif;
-  font-size: 14px;
-  line-height: 20px;
-  color: var(--main-color);
-  background-color: var(--text-part-blocks);
 }
 
 .link,
@@ -314,6 +318,12 @@
   z-index: 6;
 }
 
+.main-header__burger-box.active {
+  position: fixed;
+  top: 10px;
+  left: 16px;
+}
+
 .main-header__burger {
   width: 15px;
   height: 10px;
@@ -370,6 +380,7 @@
   left: 0;
   width: 100%;
   height: 100%;
+  overflow: auto;
   background-color: var(--background-text);
   z-index: 5;
   transition: all 0.3s ease 0s;
@@ -381,6 +392,7 @@
 
 .burger-menu__list {
   list-style: none;
+  padding-left: 60px;
   margin-top: 60px;
 }
 
@@ -400,7 +412,7 @@
   display: none;
 }
 
-.burger {
+/* .burger {
   width: 20px;
   height: 20px;
 }
@@ -412,7 +424,7 @@
   margin: 4px;
   height: 2px;
   background-color: var(--main-color);
-}
+} */
 
 .logo-container {
   width: 100px;
@@ -1089,14 +1101,42 @@
     padding: 0 24px;
   }
 
-  .burger {
+  /* .burger {
     width: 24px;
     height: 24px;
   }
 
   .burger__span{
     width: 18px;
+  } */
+
+  .main-header__burger-box {
+    width: 24px;
+    height: 24px;
   }
+
+  .main-header__burger-box.active {
+    top: 28px;
+    left: 24px;
+  }
+
+  .main-header__burger {
+    width: 18px;
+    height: 12px;
+    margin: 6px 3px;
+  }
+
+  .main-header__burger span {
+    top: 5px;
+  }
+
+  .main-header__burger.active::before {
+    top: 5px;
+  }
+
+  .main-header__burger.active::after {
+    bottom: 5px;
+  } /*  */
 
   .logo-container {
     width: 168px;
@@ -1514,7 +1554,13 @@
     margin: 0 auto;
   }
 
+  /*
   .burger {
+    display: none;
+  }
+  */
+
+  .main-header__burger-box {
     display: none;
   }
 
