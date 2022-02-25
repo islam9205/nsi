@@ -48,7 +48,7 @@
 
 /* Global */
 
-.visuallyhidden:not(:focus):not(:active) {
+.visuallyhidden {
 
   width: 1px;
   height: 1px;
