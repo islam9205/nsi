@@ -1024,6 +1024,11 @@
     height: 52px;
     margin-bottom: 60px;
   }
+
+  .contacts_link {
+    margin: 0 auto;
+    margin-top: 38px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -1390,7 +1395,6 @@
 
   .contacts_link {
     margin: 0 auto;
-    margin-right: 38%;
   }
 
   /* footer */
