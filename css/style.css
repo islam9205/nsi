@@ -1510,7 +1510,7 @@
   .what-do-you-need__form {
     width: 50%;
     align-self: auto;
-    margin-top: 66px;
+    margin-top: 50px;
     margin-left: auto;
   }
 }
@@ -1558,8 +1558,13 @@
   } */
 
   .what-do-you-need__form {
-    width: 50%;
+    width: 100%;
+    margin-top: 66px;
     margin-left: 274px;
+  }
+
+  .what-do-you-need__title {
+    width: 461px;
   }
 
   .what-do-you-need__text {
