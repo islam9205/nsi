@@ -104,6 +104,9 @@
 .title {
   font-size: 24px;
   line-height: 32px;
+  padding-top: 44px;
+  margin-top: 0;
+  margin-bottom: 24px;
 }
 
 .subtitle {
@@ -114,12 +117,6 @@
 .certain-blocks {
   color: var(--text-part-blocks);
   background-color: var(--dark-blocks);
-}
-
-.title {
-  padding-top: 44px;
-  margin-top: 0;
-  margin-bottom: 24px;
 }
 
 .certain-blocks .title {
