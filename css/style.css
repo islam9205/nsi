@@ -449,6 +449,7 @@
 .page-main-blank {
   height: 568px;
   background: var(--background-img) url(../i/bg/bg-nsi-320.jpg) no-repeat;
+  background-size: 100%;
 }
 
 .main-title_margin {
@@ -479,6 +480,7 @@
   margin-left: 0;
   color: var(--text-part-blocks);
   background: var(--background-img) url(../i/bg/bg-nsi-320.jpg) no-repeat;
+  background-size: 100%;
 }
 
 .get-a-presentation__list {
@@ -532,6 +534,7 @@
 
 .order-service {
   background: var(--background-img) url(../i/bg/bg-pm-320.jpg) no-repeat;
+  background-size: 100%;
 }
 
 .main-title_margin-pm {
@@ -1133,6 +1136,7 @@
 
   .page-main-blank {
     background: var(--background-img) url(../i/bg/bg-nsi-768.jpg) no-repeat;
+    background-size: 100%;
   }
 
   .main-title_margin {
@@ -1156,6 +1160,7 @@
   .get-a-presentation {
     height: 688px;
     background: var(--background-img) url(../i/bg/bg-nsi-768.jpg) no-repeat;
+    background-size: 100%;
   }
 
   .get-a-presentation__list {
@@ -1179,6 +1184,7 @@
 
   .order-service {
     background: var(--background-img) url(../i/bg/bg-pm768.jpg) no-repeat;
+    background-size: 100%;
   }
 
   .main-title_margin-pm {
@@ -1346,7 +1352,6 @@
 
   .contacts__box-text {
     top: -25px;
-    /* left: 48%; */
   }
 
   .contacts__line {
@@ -1582,6 +1587,7 @@
 
   .page-main-blank {
     background: var(--background-img) url(../i/bg/bg-nsi-1440.jpg) no-repeat;
+    background-size: 100%;
   }
 
   .main-title_margin {
@@ -1603,6 +1609,7 @@
   .get-a-presentation {
     height: 600px;
     background: var(--background-img) url(../i/bg/bg-nsi-1440.jpg) no-repeat;
+    background-size: 100%;
   }
 
   .main-title,
@@ -1619,6 +1626,7 @@
 
   .order-service {
     background: var(--background-img) url(../i/bg/bg-pm-1440.jpg) no-repeat;
+    background-size: 100%;
   }
 
   .main-title_margin-pm {
@@ -1842,12 +1850,14 @@
 
   .page-main-blank {
     background: var(--background-img) url(../i/bg/bg-nsi-1920.jpg) no-repeat;
+    background-size: 100%;
   }
 
   /* get-a-presentation */
 
   .get-a-presentation {
     background: var(--background-img) url(../i/bg/bg-nsi-1920.jpg) no-repeat;
+    background-size: 100%;
   }
 
   .main-title,
@@ -1860,6 +1870,7 @@
 
   .order-service {
     background: var(--background-img) url(../i/bg/bg-pm-1920.jpg) no-repeat;
+    background-size: 100%;
   }
 
   .order-service__text {
